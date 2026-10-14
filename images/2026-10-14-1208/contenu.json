@@ -1,0 +1,78 @@
+{
+ "sujet": "La Grande Guerre des émeus (Australie-Occidentale, 1932)",
+ "titre": "La guerre des émeus : l'armée australienne vaincue",
+ "description": "En 1932, l'armée australienne a été envoyée avec des mitrailleuses contre 20 000 émeus qui ravageaient les champs de blé. Les oiseaux s'en sont mieux sortis que les soldats. #histoire #pourtoi #australie #anecdotehistorique #apprendresurtiktok",
+ "recherche_secours": "emu Australia 1932 soldiers",
+ "hooks_candidats": [
+  "En 1932, l'armée australienne a perdu une guerre contre des oiseaux.",
+  "Des mitrailleuses contre des oiseaux : l'armée a perdu.",
+  "En 1932, des soldats ont déclaré la guerre à 20 000 émeus.",
+  "Ce pays a envoyé son armée combattre des oiseaux. Et a perdu.",
+  "Deux mitrailleuses, 10 000 cartouches, et une défaite face à des émeus."
+ ],
+ "accroche": {
+  "surtitre": "AUSTRALIE · 1932",
+  "texte": "En 1932, l'armée australienne a perdu une guerre contre des oiseaux.",
+  "recherche_image": "emu Western Australia"
+ },
+ "recit": [
+  {
+   "surtitre": "LES FERMIERS RUINÉS",
+   "texte": "Australie-Occidentale, 1932. Des vétérans de 14-18 cultivent du blé, étranglés par la crise. Puis 20 000 émeus débarquent et saccagent les champs.",
+   "recherche_image": "wheat farm Western Australia 1930s"
+  },
+  {
+   "surtitre": "L'ARMÉE EST APPELÉE",
+   "texte": "Les fermiers réclament de l'aide. Le gouvernement envoie des soldats, deux mitrailleuses et environ 10 000 cartouches.",
+   "recherche_image": "Lewis gun soldiers 1930s"
+  },
+  {
+   "surtitre": "L'OFFENSIVE",
+   "texte": "Début novembre, les soldats ouvrent le feu. Mais les émeus se dispersent en petits groupes, rapides et presque impossibles à toucher.",
+   "recherche_image": "emu running"
+  },
+  {
+   "surtitre": "LA DÉFAITE",
+   "texte": "L'armée se retire le 8 novembre, revient, puis abandonne en décembre. Les journaux se moquent : les émeus ont gagné.",
+   "recherche_image": "emu war newspaper 1932"
+  }
+ ],
+ "cta": "Tu aimes l'Histoire ? Abonne-toi.",
+ "slides": [
+  {
+   "surtitre": "AUSTRALIE · 1932",
+   "texte": "En 1932, l'armée australienne a perdu une guerre contre des oiseaux.",
+   "recherche_image": "emu Western Australia",
+   "type": "hook"
+  },
+  {
+   "surtitre": "LES FERMIERS RUINÉS",
+   "texte": "Australie-Occidentale, 1932. Des vétérans de 14-18 cultivent du blé, étranglés par la crise. Puis 20 000 émeus débarquent et saccagent les champs.",
+   "recherche_image": "wheat farm Western Australia 1930s",
+   "type": "recit"
+  },
+  {
+   "surtitre": "L'ARMÉE EST APPELÉE",
+   "texte": "Les fermiers réclament de l'aide. Le gouvernement envoie des soldats, deux mitrailleuses et environ 10 000 cartouches.",
+   "recherche_image": "Lewis gun soldiers 1930s",
+   "type": "recit"
+  },
+  {
+   "surtitre": "L'OFFENSIVE",
+   "texte": "Début novembre, les soldats ouvrent le feu. Mais les émeus se dispersent en petits groupes, rapides et presque impossibles à toucher.",
+   "recherche_image": "emu running",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA DÉFAITE",
+   "texte": "L'armée se retire le 8 novembre, revient, puis abandonne en décembre. Les journaux se moquent : les émeus ont gagné.",
+   "recherche_image": "emu war newspaper 1932",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Tu aimes l'Histoire ? Abonne-toi."
+  }
+ ]
+}
