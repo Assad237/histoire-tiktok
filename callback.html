@@ -1,0 +1,6 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Connexion TikTok – Histoire Auto Poster</title><style>body{font-family:Georgia,serif;max-width:720px;margin:40px auto;padding:0 16px;line-height:1.6;color:#222;background:#faf7f2}h1{color:#5a3e1b}a{color:#8a5a1c}</style></head><body>
+<h1>Connexion TikTok</h1><p id="msg">Lecture du code d'autorisation…</p><pre id="code" style="white-space:pre-wrap;background:#fff;padding:12px;border:1px solid #ddd"></pre>
+<script>const p=new URLSearchParams(location.search);const c=p.get('code'),e=p.get('error');
+document.getElementById('msg').textContent=c?"Autorisation réussie. Copie ce code (valable quelques minutes) :":(e?"Erreur : "+e+" – "+(p.get('error_description')||''):"Aucun code reçu.");
+if(c)document.getElementById('code').textContent=c;</script>
+<p><a href="index.html">Accueil</a></p></body></html>
