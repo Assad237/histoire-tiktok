@@ -62,20 +62,33 @@ def ask_claude(done):
 Choisis UN sujet historique précis, surprenant et vérifiable (événement, personnage, anecdote), différent de ceux déjà traités :
 {deja}
 
-Règles :
+Structure du carrousel : 4 à 7 slides AU TOTAL.
+1. Slide 1 = le HOOK (champ "accroche").
+2. Slides de récit (champ "recit") : 2 à 5 slides selon la richesse du sujet, jamais rallongé artificiellement. Récit chronologique avec tension ; la chute de l'histoire est dans la dernière slide du récit. AUCUN appel à s'abonner, liker ou commenter dans le récit.
+3. Dernière slide = UNIQUEMENT l'appel à s'abonner (champ "cta") : une seule phrase courte (30 à 90 caractères) contenant le mot « abonne », sans aucun fait historique. Exemples : « Tu aimes l'Histoire ? Abonne-toi. », « Abonne-toi pour une histoire vraie chaque jour. »
+
+LE HOOK (slide 1) décide de tout : il doit stopper le scroll sur TikTok en moins de 2 secondes.
+- 5 à 14 mots, 85 caractères maximum : lisible d'un seul coup d'œil.
+- Crée un manque d'information : promets quelque chose de fou mais vrai, SANS révéler la fin ni l'explication.
+- Concret et frappant : une date, un chiffre, un contraste, un superlatif ou une situation absurde.
+- Exemples du niveau attendu : « En 1859, un cochon a failli déclencher une guerre. » / « Ce pape a fait juger… un cadavre. » / « Il a survécu aux deux bombes atomiques. »
+- Interdits : « Saviez-vous », « Découvrez », « Aujourd'hui », « Voici l'histoire de », les questions molles, les emojis, les hashtags.
+- Écris d'abord 5 hooks différents dans "hooks_candidats", puis recopie le plus fort dans "accroche"."texte".
+
+Règles de rédaction :
 - Faits exacts uniquement, dates correctes, pas d'invention. En cas de doute sur un détail, ne le mets pas.
-- Entre 4 et 7 slides au total, selon la richesse du sujet : n'allonge jamais artificiellement, un sujet simple tient en 4 ou 5 slides.
-- Slide 1 = accroche choc (question ou fait étonnant). Slides du milieu = récit chronologique avec tension.
-- DERNIÈRE slide (OBLIGATOIRE) = chute de l'histoire + appel explicite à S'ABONNER, avec le mot « abonne » (ex : « Abonne-toi pour une histoire vraie chaque jour »). Tu peux aussi inviter à commenter, mais l'appel à s'abonner est indispensable.
 - "surtitre" : 2 à 5 mots en majuscules (ex : "PARIS · 1793").
-- "texte" : 90 à 170 caractères (la dernière slide peut aller jusqu'à 200 avec l'appel à s'abonner), phrases courtes, style oral et percutant.
+- "texte" des slides de récit : 90 à 170 caractères, phrases courtes, style oral et percutant.
 - "recherche_image" : 2 à 5 mots-clés EN ANGLAIS pour trouver une image d'époque sur Wikimedia Commons (tableau, gravure, photo historique, carte) liée à la slide.
 - "recherche_secours" : 2 à 4 mots-clés anglais généraux sur le sujet.
 - "titre" : 60 caractères max. "description" : 2 phrases + 5 hashtags (#histoire #pourtoi etc.).
 
 Réponds UNIQUEMENT avec ce JSON :
 {{"sujet": "...", "titre": "...", "description": "...", "recherche_secours": "...",
- "slides": [{{"surtitre": "...", "texte": "...", "recherche_image": "..."}}]}}"""
+ "hooks_candidats": ["...", "...", "...", "...", "..."],
+ "accroche": {{"surtitre": "...", "texte": "...", "recherche_image": "..."}},
+ "recit": [{{"surtitre": "...", "texte": "...", "recherche_image": "..."}}],
+ "cta": "..."}}"""
     prompt += "\n\nIMPORTANT : JSON strictement valide. N'utilise JAMAIS de guillemets droits (\") à l'intérieur des textes : utilise les guillemets français « »."
     model = pick_model()
     log("Modèle Claude :", model)
@@ -100,20 +113,32 @@ Réponds UNIQUEMENT avec ce JSON :
 
 
 ABONNE = re.compile(r"abonn", re.I)
-CTA_ABONNE = "Abonne-toi pour une histoire vraie chaque jour !"
+CTA_DEFAUT = "Tu aimes l'Histoire ? Abonne-toi pour une histoire vraie chaque jour."
+
+
+def sans_cta(texte):
+    """Retire d'un texte de récit toute phrase qui appelle à s'abonner."""
+    phrases = re.split(r"(?<=[.!?…])\s+", texte.strip())
+    return " ".join(p for p in phrases if not ABONNE.search(p)).strip()
 
 
 def check_slides(data):
-    """Garantit 4 à 7 slides et un appel à s'abonner sur la dernière."""
-    slides = data["slides"]
-    assert len(slides) >= 4, f"seulement {len(slides)} slides"
-    if len(slides) > 7:  # on garde l'accroche, le récit et la dernière slide
-        slides = slides[:6] + [slides[-1]]
-    last = slides[-1]
-    if not ABONNE.search(last.get("texte", "")):
-        last["texte"] = (last.get("texte", "").rstrip() + " " + CTA_ABONNE).strip()
-        log("Appel à s'abonner ajouté automatiquement sur la dernière slide.")
-    data["slides"] = slides
+    """Construit : 1 hook + 2 à 5 slides de récit + 1 slide CTA d'abonnement (4 à 7 au total)."""
+    hook = data["accroche"]
+    assert hook.get("texte", "").strip(), "accroche vide"
+    recit = [r for r in data["recit"] if r.get("texte", "").strip()]
+    assert len(recit) >= 2, f"récit trop court ({len(recit)} slides)"
+    if len(recit) > 5:  # on garde le début du récit et sa chute
+        recit = recit[:4] + [recit[-1]]
+    for r in recit:
+        r["texte"] = sans_cta(r["texte"]) or r["texte"]
+    cta = (data.get("cta") or "").strip()
+    if not ABONNE.search(cta) or len(cta) > 120:
+        log("CTA absent ou invalide, CTA par défaut utilisé.")
+        cta = CTA_DEFAUT
+    data["cta"] = cta
+    data["slides"] = ([dict(hook, type="hook")] + [dict(r, type="recit") for r in recit]
+                      + [{"type": "cta", "surtitre": "ABONNE-TOI", "texte": cta}])
     return data
 
 
@@ -181,43 +206,54 @@ def wrap(draw, text, font, maxw):
     return lines
 
 
-def render(slide, img, idx, total):
+# Zone sûre TikTok (1080x1920) : l'interface masque le haut (onglets), le bas (pseudo, description)
+# et la colonne de droite (boutons). Tout le texte reste dans ce cadre.
+SAFE_LEFT, SAFE_RIGHT, SAFE_TOP, SAFE_BOTTOM = 80, 940, 260, 1440
+CX = (SAFE_LEFT + SAFE_RIGHT) // 2
+TEXT_W = SAFE_RIGHT - SAFE_LEFT - 80
+
+
+def render(slide, img):
+    kind = slide.get("type", "recit")
     base = Image.new("RGB", (W, H), (18, 12, 8))
     if img is not None:
         bg = cover(img, W, H)
-        blur = bg.filter(ImageFilter.GaussianBlur(2))
-        base.paste(blur)
-    # assombrissement + dégradé vers le bas
-    shade = Image.new("L", (W, H))
-    sd = ImageDraw.Draw(shade)
-    for y in range(H):
-        a = 70 if y < H * 0.4 else int(70 + (y - H * 0.4) / (H * 0.6) * 165)
-        sd.line([(0, y), (W, y)], fill=a)
-    base = Image.composite(Image.new("RGB", (W, H), (10, 7, 5)), base, shade)
+        base.paste(bg.filter(ImageFilter.GaussianBlur(14 if kind == "cta" else 1)))
+    dark = 150 if kind == "cta" else 85
+    base = Image.blend(base, Image.new("RGB", (W, H), (10, 7, 5)), dark / 255)
     d = ImageDraw.Draw(base)
-    hook = idx == 0
-    f_sur = ImageFont.truetype(F_SANS, 40)
-    f_small = ImageFont.truetype(F_REG, 32)
-    size = 76 if hook else 60
-    while True:  # réduit la police si le texte est trop long pour tenir
+    f_sur = ImageFont.truetype(F_SANS, 38)
+    size = {"hook": 92, "cta": 80}.get(kind, 60)
+    max_h = SAFE_BOTTOM - SAFE_TOP - 260
+    while True:  # réduit la police si le texte est trop long pour tenir dans la zone sûre
         f_txt = ImageFont.truetype(F_BOLD, size)
-        lines = wrap(d, slide["texte"], f_txt, W - 140)
-        lh = int(size * 1.28)
+        lines = wrap(d, slide["texte"], f_txt, TEXT_W)
+        lh = int(size * 1.25)
         block = lh * len(lines)
-        if block <= 1000 or size <= 40:
+        if block <= max_h or size <= 40:
             break
         size -= 4
-    y = (H - block) // 2 + 120 if hook else H - 260 - block
     sur = slide.get("surtitre", "").upper()
-    sw = d.textlength(sur, font=f_sur)
-    d.rectangle([(W - sw) / 2 - 24, y - 110, (W + sw) / 2 + 24, y - 40], outline=GOLD, width=3)
-    d.text((W / 2, y - 75), sur, font=f_sur, fill=GOLD, anchor="mm")
+    extra = 70 if kind == "hook" else 0  # place pour « Swipe → »
+    total_h = 90 + block + extra
+    top = SAFE_TOP + (SAFE_BOTTOM - SAFE_TOP - total_h) // 2
+    # panneau sombre semi-transparent derrière le texte
+    panel = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(panel).rounded_rectangle(
+        [SAFE_LEFT, top - 40, SAFE_RIGHT, top + total_h + 30], radius=28, fill=(8, 5, 3, 165))
+    base = Image.alpha_composite(base.convert("RGBA"), panel).convert("RGB")
+    d = ImageDraw.Draw(base)
+    if sur:
+        sw = d.textlength(sur, font=f_sur)
+        d.rectangle([CX - sw / 2 - 22, top, CX + sw / 2 + 22, top + 62], outline=GOLD, width=3)
+        d.text((CX, top + 31), sur, font=f_sur, fill=GOLD, anchor="mm")
+    y = top + 90
+    color = GOLD if kind == "cta" else CREAM
     for i, ln in enumerate(lines):
-        d.text((W / 2 + 3, y + i * lh + 3), ln, font=f_txt, fill=(0, 0, 0), anchor="ma")
-        d.text((W / 2, y + i * lh), ln, font=f_txt, fill=CREAM, anchor="ma")
-    d.text((W / 2, H - 150), f"{idx + 1} / {total}", font=f_small, fill=(190, 175, 150), anchor="mm")
-    if hook:
-        d.text((W / 2, H - 210), "Swipe →", font=f_small, fill=GOLD, anchor="mm")
+        d.text((CX + 3, y + i * lh + 3), ln, font=f_txt, fill=(0, 0, 0), anchor="ma")
+        d.text((CX, y + i * lh), ln, font=f_txt, fill=color, anchor="ma")
+    if kind == "hook":
+        d.text((CX, y + block + 35), "Swipe →", font=ImageFont.truetype(F_SANS, 36), fill=GOLD, anchor="mm")
     return base
 
 
@@ -255,27 +291,31 @@ def main():
     out_dir = os.path.join(ROOT, "images", day)
     os.makedirs(out_dir, exist_ok=True)
     used, credits, files = set(), [], []
-    total = len(data["slides"])
+    first_img = None
     for i, s in enumerate(data["slides"]):
-        found = None
-        for q in (s.get("recherche_image"), data.get("recherche_secours")):
-            if q and not found:
+        img, found = None, None
+        if s["type"] == "cta":
+            img = first_img  # fond : l'image du hook, floutée et assombrie
+        else:
+            for q in (s.get("recherche_image"), data.get("recherche_secours")):
+                if q and not found:
+                    try:
+                        found = search_commons(q, used)
+                    except Exception as e:  # noqa
+                        log("Recherche échouée", q, e)
+            if found:
                 try:
-                    found = search_commons(q, used)
+                    img = fetch_image(found["url"])
+                    used.add(found["url"])
+                    if not FREE_PD.search(found["license"]):
+                        credits.append(f"{found['artist'] or 'Wikimedia Commons'} ({found['license']})")
                 except Exception as e:  # noqa
-                    log("Recherche échouée", q, e)
-        img = None
-        if found:
-            try:
-                img = fetch_image(found["url"])
-                used.add(found["url"])
-                if not FREE_PD.search(found["license"]):
-                    credits.append(f"{found['artist'] or 'Wikimedia Commons'} ({found['license']})")
-            except Exception as e:  # noqa
-                log("Téléchargement échoué", e)
-        log(f"Slide {i+1}: image {'OK ' + found['license'] if img else 'aucune (fond uni)'}")
+                    log("Téléchargement échoué", e)
+            if first_img is None and img is not None:
+                first_img = img
+        log(f"Slide {i+1} ({s['type']}): image {'OK' if img else 'aucune (fond uni)'}")
         path = os.path.join(out_dir, f"slide{i+1}.jpg")
-        render(s, img, i, total).save(path, "JPEG", quality=88)
+        render(s, img).save(path, "JPEG", quality=90)
         files.append(f"images/{day}/slide{i+1}.jpg")
         time.sleep(1)
 
