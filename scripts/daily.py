@@ -76,18 +76,27 @@ Règles :
 Réponds UNIQUEMENT avec ce JSON :
 {{"sujet": "...", "titre": "...", "description": "...", "recherche_secours": "...",
  "slides": [{{"surtitre": "...", "texte": "...", "recherche_image": "..."}}]}}"""
+    prompt += "\n\nIMPORTANT : JSON strictement valide. N'utilise JAMAIS de guillemets droits (\") à l'intérieur des textes : utilise les guillemets français « »."
     model = pick_model()
     log("Modèle Claude :", model)
-    r = requests.post("https://api.anthropic.com/v1/messages",
-                      headers={"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01",
-                               "content-type": "application/json"},
-                      json={"model": model, "max_tokens": 2500,
-                            "messages": [{"role": "user", "content": prompt}]}, timeout=120)
-    r.raise_for_status()
-    txt = "".join(b.get("text", "") for b in r.json()["content"])
-    m = re.search(r"\{.*\}", txt, re.S)
-    data = json.loads(m.group(0))
-    return check_slides(data)
+    last_err = None
+    for attempt in range(1, 4):  # jusqu'à 3 essais si la réponse n'est pas un JSON valide
+        try:
+            r = requests.post("https://api.anthropic.com/v1/messages",
+                              headers={"x-api-key": ANTHROPIC_KEY, "anthropic-version": "2023-06-01",
+                                       "content-type": "application/json"},
+                              json={"model": model, "max_tokens": 3000,
+                                    "messages": [{"role": "user", "content": prompt}]}, timeout=120)
+            r.raise_for_status()
+            txt = "".join(b.get("text", "") for b in r.json()["content"])
+            m = re.search(r"\{.*\}", txt, re.S)
+            data = json.loads(m.group(0))
+            return check_slides(data)
+        except (ValueError, AttributeError, KeyError, AssertionError) as e:
+            last_err = e
+            log(f"Réponse de Claude inutilisable (essai {attempt}/3) : {e}")
+            time.sleep(3)
+    raise RuntimeError(f"Claude n'a pas renvoyé de JSON valide après 3 essais : {last_err}")
 
 
 ABONNE = re.compile(r"abonn", re.I)
