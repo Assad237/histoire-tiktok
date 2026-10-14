@@ -64,9 +64,11 @@ Choisis UN sujet historique précis, surprenant et vérifiable (événement, per
 
 Règles :
 - Faits exacts uniquement, dates correctes, pas d'invention. En cas de doute sur un détail, ne le mets pas.
-- 7 slides : slide 1 = accroche choc (question ou fait étonnant), slides 2-6 = récit chronologique avec tension, slide 7 = chute + appel à commenter.
+- Entre 4 et 7 slides au total, selon la richesse du sujet : n'allonge jamais artificiellement, un sujet simple tient en 4 ou 5 slides.
+- Slide 1 = accroche choc (question ou fait étonnant). Slides du milieu = récit chronologique avec tension.
+- DERNIÈRE slide (OBLIGATOIRE) = chute de l'histoire + appel explicite à S'ABONNER, avec le mot « abonne » (ex : « Abonne-toi pour une histoire vraie chaque jour »). Tu peux aussi inviter à commenter, mais l'appel à s'abonner est indispensable.
 - "surtitre" : 2 à 5 mots en majuscules (ex : "PARIS · 1793").
-- "texte" : 90 à 170 caractères, phrases courtes, style oral et percutant.
+- "texte" : 90 à 170 caractères (la dernière slide peut aller jusqu'à 200 avec l'appel à s'abonner), phrases courtes, style oral et percutant.
 - "recherche_image" : 2 à 5 mots-clés EN ANGLAIS pour trouver une image d'époque sur Wikimedia Commons (tableau, gravure, photo historique, carte) liée à la slide.
 - "recherche_secours" : 2 à 4 mots-clés anglais généraux sur le sujet.
 - "titre" : 60 caractères max. "description" : 2 phrases + 5 hashtags (#histoire #pourtoi etc.).
@@ -85,7 +87,24 @@ Réponds UNIQUEMENT avec ce JSON :
     txt = "".join(b.get("text", "") for b in r.json()["content"])
     m = re.search(r"\{.*\}", txt, re.S)
     data = json.loads(m.group(0))
-    assert 5 <= len(data["slides"]) <= 10, "nombre de slides inattendu"
+    return check_slides(data)
+
+
+ABONNE = re.compile(r"abonn", re.I)
+CTA_ABONNE = "Abonne-toi pour une histoire vraie chaque jour !"
+
+
+def check_slides(data):
+    """Garantit 4 à 7 slides et un appel à s'abonner sur la dernière."""
+    slides = data["slides"]
+    assert len(slides) >= 4, f"seulement {len(slides)} slides"
+    if len(slides) > 7:  # on garde l'accroche, le récit et la dernière slide
+        slides = slides[:6] + [slides[-1]]
+    last = slides[-1]
+    if not ABONNE.search(last.get("texte", "")):
+        last["texte"] = (last.get("texte", "").rstrip() + " " + CTA_ABONNE).strip()
+        log("Appel à s'abonner ajouté automatiquement sur la dernière slide.")
+    data["slides"] = slides
     return data
 
 
@@ -168,12 +187,17 @@ def render(slide, img, idx, total):
     base = Image.composite(Image.new("RGB", (W, H), (10, 7, 5)), base, shade)
     d = ImageDraw.Draw(base)
     hook = idx == 0
-    f_txt = ImageFont.truetype(F_BOLD, 76 if hook else 60)
     f_sur = ImageFont.truetype(F_SANS, 40)
     f_small = ImageFont.truetype(F_REG, 32)
-    lines = wrap(d, slide["texte"], f_txt, W - 140)
-    lh = int(f_txt.size * 1.28)
-    block = lh * len(lines)
+    size = 76 if hook else 60
+    while True:  # réduit la police si le texte est trop long pour tenir
+        f_txt = ImageFont.truetype(F_BOLD, size)
+        lines = wrap(d, slide["texte"], f_txt, W - 140)
+        lh = int(size * 1.28)
+        block = lh * len(lines)
+        if block <= 1000 or size <= 40:
+            break
+        size -= 4
     y = (H - block) // 2 + 120 if hook else H - 260 - block
     sur = slide.get("surtitre", "").upper()
     sw = d.textlength(sur, font=f_sur)
