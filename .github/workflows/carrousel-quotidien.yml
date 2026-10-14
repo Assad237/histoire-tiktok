@@ -1,0 +1,32 @@
+name: Carrousel TikTok quotidien
+
+on:
+  schedule:
+    - cron: "47 5 * * *"   # tous les jours vers 7h47 (heure de Paris en été)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency: carrousel
+
+jobs:
+  carrousel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Polices et dépendances
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-dejavu-core
+          pip install -q requests pillow
+      - name: Générer et envoyer le carrousel
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/daily.py
