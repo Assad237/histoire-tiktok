@@ -1,0 +1,78 @@
+{
+ "sujet": "Le Grand Déluge de mélasse de Boston (15 janvier 1919)",
+ "titre": "Boston 1919 : la vague de mélasse qui a tué 21 personnes",
+ "description": "Le 15 janvier 1919, un réservoir géant de mélasse explose en plein centre de Boston et libère une vague meurtrière. Une catastrophe industrielle réelle, aussi absurde que tragique. #histoire #pourtoi #savoirinutile #boston #histoirevraie",
+ "recherche_secours": "Boston molasses flood 1919",
+ "hooks_candidats": [
+  "En 1919, une vague de mélasse a tué 21 personnes.",
+  "Boston, 1919 : une vague de 7 mètres… de sirop.",
+  "Cette vague mortelle roulait à 55 km/h. Elle était sucrée.",
+  "En 1919, Boston a été noyée sous 8 millions de litres de mélasse.",
+  "21 morts à Boston en 1919, noyés dans de la mélasse."
+ ],
+ "accroche": {
+  "surtitre": "BOSTON · 1919",
+  "texte": "En 1919, une vague de mélasse a tué 21 personnes.",
+  "recherche_image": "Boston molasses flood 1919"
+ },
+ "recit": [
+  {
+   "surtitre": "BOSTON · 1915",
+   "texte": "Une entreprise construit un réservoir géant en plein quartier du North End. Elle y stocke de la mélasse pour fabriquer de l'alcool industriel.",
+   "recherche_image": "Purity Distilling tank Boston"
+  },
+  {
+   "surtitre": "LES SIGNES · AVANT 1919",
+   "texte": "Le réservoir fuit dès le début. Des habitants récupèrent la mélasse au robinet. L'entreprise le peint en marron pour cacher les fuites.",
+   "recherche_image": "Boston North End 1919 molasses tank"
+  },
+  {
+   "surtitre": "15 JANVIER 1919 · 12H30",
+   "texte": "Le temps vient de se radoucir après un grand froid. Le réservoir cède : une vague de plus de 7 mètres déferle à environ 55 km/h.",
+   "recherche_image": "Boston molasses flood wreckage"
+  },
+  {
+   "surtitre": "BILAN · 21 MORTS",
+   "texte": "21 morts, 150 blessés. L'entreprise accuse des anarchistes, mais la justice la juge responsable : le réservoir était mal conçu.",
+   "recherche_image": "Boston molasses flood cleanup 1919"
+  }
+ ],
+ "cta": "Abonne-toi pour une histoire vraie chaque jour.",
+ "slides": [
+  {
+   "surtitre": "BOSTON · 1919",
+   "texte": "En 1919, une vague de mélasse a tué 21 personnes.",
+   "recherche_image": "Boston molasses flood 1919",
+   "type": "hook"
+  },
+  {
+   "surtitre": "BOSTON · 1915",
+   "texte": "Une entreprise construit un réservoir géant en plein quartier du North End. Elle y stocke de la mélasse pour fabriquer de l'alcool industriel.",
+   "recherche_image": "Purity Distilling tank Boston",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LES SIGNES · AVANT 1919",
+   "texte": "Le réservoir fuit dès le début. Des habitants récupèrent la mélasse au robinet. L'entreprise le peint en marron pour cacher les fuites.",
+   "recherche_image": "Boston North End 1919 molasses tank",
+   "type": "recit"
+  },
+  {
+   "surtitre": "15 JANVIER 1919 · 12H30",
+   "texte": "Le temps vient de se radoucir après un grand froid. Le réservoir cède : une vague de plus de 7 mètres déferle à environ 55 km/h.",
+   "recherche_image": "Boston molasses flood wreckage",
+   "type": "recit"
+  },
+  {
+   "surtitre": "BILAN · 21 MORTS",
+   "texte": "21 morts, 150 blessés. L'entreprise accuse des anarchistes, mais la justice la juge responsable : le réservoir était mal conçu.",
+   "recherche_image": "Boston molasses flood cleanup 1919",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Abonne-toi pour une histoire vraie chaque jour."
+  }
+ ]
+}
