@@ -1,0 +1,78 @@
+{
+ "sujet": "La guerre des Pâtisseries (1838-1839) : la France bombarde le Mexique à cause de gâteaux, et le général Santa Anna y perd une jambe",
+ "titre": "La guerre des Pâtisseries : France contre Mexique, 1838",
+ "description": "Un pâtissier français, des gâteaux jamais payés, et la France qui bombarde le Mexique. Et ce n'est pas la fin : une jambe a eu droit à des funérailles nationales. #histoire #pourtoi #guerre #anecdote #apprendresurtiktok",
+ "recherche_secours": "Pastry War Veracruz 1838",
+ "hooks_candidats": [
+  "En 1838, des gâteaux impayés ont déclenché une guerre.",
+  "Cette guerre a commencé dans une pâtisserie.",
+  "Il a perdu une jambe à cause de gâteaux volés.",
+  "Une jambe a eu droit à des funérailles nationales.",
+  "La France a bombardé le Mexique pour une histoire de pâtisserie."
+ ],
+ "accroche": {
+  "surtitre": "FRANCE · MEXIQUE · 1838",
+  "texte": "En 1838, des gâteaux impayés ont déclenché une guerre.",
+  "recherche_image": "Pastry War 1838 Veracruz"
+ },
+ "recit": [
+  {
+   "surtitre": "TACUBAYA · 1828",
+   "texte": "En 1828, près de Mexico, le pâtissier français Remontel dit que des officiers ont pillé sa boutique. Personne ne le rembourse.",
+   "recherche_image": "Tacubaya Mexico 19th century"
+  },
+  {
+   "surtitre": "PARIS · 1838",
+   "texte": "Dix ans plus tard, il supplie le roi Louis-Philippe. La France exige 600 000 pesos et bloque les ports mexicains.",
+   "recherche_image": "Louis-Philippe portrait Winterhalter"
+  },
+  {
+   "surtitre": "VERACRUZ · 5 DÉCEMBRE 1838",
+   "texte": "Les Français attaquent Veracruz. Le général Santa Anna est touché par un tir de canon et perd une jambe.",
+   "recherche_image": "Battle of Veracruz 1838 Pastry War"
+  },
+  {
+   "surtitre": "MEXICO · 1839-1842",
+   "texte": "En 1839, le Mexique accepte de payer les 600 000 pesos. Trois ans plus tard, Santa Anna offre à sa jambe des funérailles nationales.",
+   "recherche_image": "Antonio López de Santa Anna portrait"
+  }
+ ],
+ "cta": "Abonne-toi pour une histoire vraie chaque jour.",
+ "slides": [
+  {
+   "surtitre": "FRANCE · MEXIQUE · 1838",
+   "texte": "En 1838, des gâteaux impayés ont déclenché une guerre.",
+   "recherche_image": "Pastry War 1838 Veracruz",
+   "type": "hook"
+  },
+  {
+   "surtitre": "TACUBAYA · 1828",
+   "texte": "En 1828, près de Mexico, le pâtissier français Remontel dit que des officiers ont pillé sa boutique. Personne ne le rembourse.",
+   "recherche_image": "Tacubaya Mexico 19th century",
+   "type": "recit"
+  },
+  {
+   "surtitre": "PARIS · 1838",
+   "texte": "Dix ans plus tard, il supplie le roi Louis-Philippe. La France exige 600 000 pesos et bloque les ports mexicains.",
+   "recherche_image": "Louis-Philippe portrait Winterhalter",
+   "type": "recit"
+  },
+  {
+   "surtitre": "VERACRUZ · 5 DÉCEMBRE 1838",
+   "texte": "Les Français attaquent Veracruz. Le général Santa Anna est touché par un tir de canon et perd une jambe.",
+   "recherche_image": "Battle of Veracruz 1838 Pastry War",
+   "type": "recit"
+  },
+  {
+   "surtitre": "MEXICO · 1839-1842",
+   "texte": "En 1839, le Mexique accepte de payer les 600 000 pesos. Trois ans plus tard, Santa Anna offre à sa jambe des funérailles nationales.",
+   "recherche_image": "Antonio López de Santa Anna portrait",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Abonne-toi pour une histoire vraie chaque jour."
+  }
+ ]
+}
