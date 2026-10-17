@@ -1,0 +1,78 @@
+{
+ "sujet": "L'épidémie de fou rire du Tanganyika (1962)",
+ "titre": "L'épidémie de fou rire du Tanganyika (1962)",
+ "description": "En 1962, dans un pensionnat du Tanganyika, un fou rire s'est propagé de proche en proche jusqu'à toucher des centaines de personnes. Les médecins y ont vu un cas d'hystérie collective. #histoire #pourtoi #anecdotehistorique #apprendresurtiktok #histoirevraie",
+ "recherche_secours": "Tanganyika 1962 schoolgirls Tanzania",
+ "hooks_candidats": [
+  "En 1962, des centaines de personnes n'ont pas pu s'arrêter de rire.",
+  "En 1962, un fou rire a fermé des écoles pendant des mois.",
+  "Cette épidémie de 1962 ne se transmettait pas par un virus.",
+  "Ils riaient sans pouvoir s'arrêter. Des écoles ont dû fermer.",
+  "En 1962, en Afrique, le rire est devenu une épidémie."
+ ],
+ "accroche": {
+  "surtitre": "TANGANYIKA · 1962",
+  "texte": "En 1962, des centaines de personnes n'ont pas pu s'arrêter de rire.",
+  "recherche_image": "Tanganyika 1962 school girls"
+ },
+ "recit": [
+  {
+   "surtitre": "30 JANVIER 1962",
+   "texte": "Au Tanganyika, dans un pensionnat de filles à Kashasha, près du lac Victoria, quelques élèves se mettent à rire. Et n'arrêtent plus.",
+   "recherche_image": "Lake Victoria Tanganyika 1960s"
+  },
+  {
+   "surtitre": "L'ÉCOLE SE VIDE",
+   "texte": "En quelques semaines, 95 élèves sur 159 sont touchées. Elles rient, pleurent, s'évanouissent. L'école ferme le 18 mars 1962.",
+   "recherche_image": "Tanganyika school classroom 1960s"
+  },
+  {
+   "surtitre": "LA CONTAGION",
+   "texte": "Les filles rentrent chez elles et le rire les suit. Il gagne le village de Nshamba, puis d'autres écoles. Des centaines de personnes sont touchées.",
+   "recherche_image": "Tanzania village 1960s"
+  },
+  {
+   "surtitre": "L'EXPLICATION",
+   "texte": "Les médecins ne trouvent aucune cause physique. La crise s'éteint après des mois. Verdict : une hystérie collective, née du stress.",
+   "recherche_image": "Tanganyika independence 1961"
+  }
+ ],
+ "cta": "Abonne-toi pour une histoire vraie chaque jour.",
+ "slides": [
+  {
+   "surtitre": "TANGANYIKA · 1962",
+   "texte": "En 1962, des centaines de personnes n'ont pas pu s'arrêter de rire.",
+   "recherche_image": "Tanganyika 1962 school girls",
+   "type": "hook"
+  },
+  {
+   "surtitre": "30 JANVIER 1962",
+   "texte": "Au Tanganyika, dans un pensionnat de filles à Kashasha, près du lac Victoria, quelques élèves se mettent à rire. Et n'arrêtent plus.",
+   "recherche_image": "Lake Victoria Tanganyika 1960s",
+   "type": "recit"
+  },
+  {
+   "surtitre": "L'ÉCOLE SE VIDE",
+   "texte": "En quelques semaines, 95 élèves sur 159 sont touchées. Elles rient, pleurent, s'évanouissent. L'école ferme le 18 mars 1962.",
+   "recherche_image": "Tanganyika school classroom 1960s",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA CONTAGION",
+   "texte": "Les filles rentrent chez elles et le rire les suit. Il gagne le village de Nshamba, puis d'autres écoles. Des centaines de personnes sont touchées.",
+   "recherche_image": "Tanzania village 1960s",
+   "type": "recit"
+  },
+  {
+   "surtitre": "L'EXPLICATION",
+   "texte": "Les médecins ne trouvent aucune cause physique. La crise s'éteint après des mois. Verdict : une hystérie collective, née du stress.",
+   "recherche_image": "Tanganyika independence 1961",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Abonne-toi pour une histoire vraie chaque jour."
+  }
+ ]
+}
