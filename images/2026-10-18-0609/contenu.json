@@ -1,0 +1,78 @@
+{
+ "sujet": "La guerre du Seau (bataille de Zappolino, 1325) : Modène bat Bologne et garde un seau volé",
+ "titre": "La guerre du Seau : deux cités italiennes en 1325",
+ "description": "En 1325, Modène et Bologne se sont affrontées lors de la bataille de Zappolino, une guerre dont l'étincelle serait le vol d'un seau en bois. Modène a gagné, et le seau est conservé là-bas depuis 700 ans. #histoire #pourtoi #moyenage #italie #anecdotehistorique",
+ "recherche_secours": "Battle of Zappolino Modena bucket",
+ "hooks_candidats": [
+  "En 1325, deux villes se sont battues pour un seau.",
+  "Ce seau en bois a déclenché une bataille médiévale.",
+  "Il y a 700 ans, un seau volé a coûté des vies.",
+  "Modène a gagné une guerre. Le trophée : un seau.",
+  "Une armée immense a perdu contre une ville… à cause d'un seau."
+ ],
+ "accroche": {
+  "surtitre": "ITALIE · 1325",
+  "texte": "En 1325, deux villes se sont battues pour un seau.",
+  "recherche_image": "Modena Ghirlandina tower"
+ },
+ "recit": [
+  {
+   "surtitre": "MODÈNE CONTRE BOLOGNE",
+   "texte": "Italie, 1325. Modène et Bologne se détestent depuis des années. Modène soutient l'empereur, Bologne soutient le pape.",
+   "recherche_image": "medieval Bologna towers"
+  },
+  {
+   "surtitre": "LE VOL",
+   "texte": "Selon la tradition, des soldats modénais se glissent dans Bologne et volent un simple seau en bois, au fond d'un puits.",
+   "recherche_image": "medieval wooden bucket well"
+  },
+  {
+   "surtitre": "ZAPPOLINO · 15 NOVEMBRE 1325",
+   "texte": "Bologne veut le récupérer. Modène refuse. Les deux cités lèvent leurs armées, et Bologne a bien plus d'hommes. Pourtant, Modène l'emporte.",
+   "recherche_image": "Battle of Zappolino 1325"
+  },
+  {
+   "surtitre": "LE TROPHÉE",
+   "texte": "Bologne perd la bataille, et Modène garde le seau. Il est toujours conservé là-bas, 700 ans plus tard.",
+   "recherche_image": "Secchia rapita Modena bucket"
+  }
+ ],
+ "cta": "Abonne-toi pour une histoire vraie chaque jour.",
+ "slides": [
+  {
+   "surtitre": "ITALIE · 1325",
+   "texte": "En 1325, deux villes se sont battues pour un seau.",
+   "recherche_image": "Modena Ghirlandina tower",
+   "type": "hook"
+  },
+  {
+   "surtitre": "MODÈNE CONTRE BOLOGNE",
+   "texte": "Italie, 1325. Modène et Bologne se détestent depuis des années. Modène soutient l'empereur, Bologne soutient le pape.",
+   "recherche_image": "medieval Bologna towers",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LE VOL",
+   "texte": "Selon la tradition, des soldats modénais se glissent dans Bologne et volent un simple seau en bois, au fond d'un puits.",
+   "recherche_image": "medieval wooden bucket well",
+   "type": "recit"
+  },
+  {
+   "surtitre": "ZAPPOLINO · 15 NOVEMBRE 1325",
+   "texte": "Bologne veut le récupérer. Modène refuse. Les deux cités lèvent leurs armées, et Bologne a bien plus d'hommes. Pourtant, Modène l'emporte.",
+   "recherche_image": "Battle of Zappolino 1325",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LE TROPHÉE",
+   "texte": "Bologne perd la bataille, et Modène garde le seau. Il est toujours conservé là-bas, 700 ans plus tard.",
+   "recherche_image": "Secchia rapita Modena bucket",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Abonne-toi pour une histoire vraie chaque jour."
+  }
+ ]
+}
