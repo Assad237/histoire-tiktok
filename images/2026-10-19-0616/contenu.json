@@ -1,0 +1,78 @@
+{
+ "sujet": "La guerre de l'oreille de Jenkins (1739) : l'oreille coupée d'un capitaine anglais mène l'Angleterre à la guerre contre l'Espagne",
+ "titre": "La guerre déclenchée par une oreille coupée (1739)",
+ "description": "En 1739, l'Angleterre déclare la guerre à l'Espagne, en partie à cause de l'oreille coupée d'un capitaine. Une histoire vraie où une anecdote a servi de prétexte à un conflit entre deux empires. #histoire #pourtoi #anecdotehistorique #apprendresurtiktok #guerre",
+ "recherche_secours": "Robert Jenkins ear war",
+ "hooks_candidats": [
+  "En 1739, une oreille coupée a déclenché une guerre.",
+  "Une oreille coupée a fait entrer l'Angleterre en guerre.",
+  "Cette guerre porte le nom d'une oreille humaine.",
+  "Il a montré son oreille coupée au Parlement.",
+  "Sept ans après, son oreille a lancé une guerre."
+ ],
+ "accroche": {
+  "surtitre": "ANGLETERRE · 1739",
+  "texte": "En 1739, une oreille coupée a déclenché une guerre.",
+  "recherche_image": "Robert Jenkins ear 1738 House of Commons"
+ },
+ "recit": [
+  {
+   "surtitre": "CARAÏBES · 1731",
+   "texte": "1731. Le capitaine anglais Robert Jenkins rentre de Jamaïque. Un garde-côte espagnol arraisonne son navire près de Cuba.",
+   "recherche_image": "Spanish guarda costa 18th century ship"
+  },
+  {
+   "surtitre": "L'AGRESSION",
+   "texte": "Selon Jenkins, les Espagnols pillent son navire. Leur capitaine lui tranche une oreille, puis le renvoie en Angleterre.",
+   "recherche_image": "18th century merchant brig pirates engraving"
+  },
+  {
+   "surtitre": "LONDRES · 1738",
+   "texte": "Sept ans plus tard, Jenkins raconte son histoire devant le Parlement. L'opinion s'enflamme, alors que Londres et Madrid se disputent le commerce des Amériques.",
+   "recherche_image": "House of Commons 1730s Walpole"
+  },
+  {
+   "surtitre": "LA GUERRE · 1739",
+   "texte": "En octobre 1739, l'Angleterre déclare la guerre à l'Espagne. Le conflit sera absorbé par la guerre de Succession d'Autriche. Son nom : la guerre de l'oreille de Jenkins.",
+   "recherche_image": "Capture of Portobelo 1739 Vernon"
+  }
+ ],
+ "cta": "Abonne-toi pour une histoire vraie chaque jour.",
+ "slides": [
+  {
+   "surtitre": "ANGLETERRE · 1739",
+   "texte": "En 1739, une oreille coupée a déclenché une guerre.",
+   "recherche_image": "Robert Jenkins ear 1738 House of Commons",
+   "type": "hook"
+  },
+  {
+   "surtitre": "CARAÏBES · 1731",
+   "texte": "1731. Le capitaine anglais Robert Jenkins rentre de Jamaïque. Un garde-côte espagnol arraisonne son navire près de Cuba.",
+   "recherche_image": "Spanish guarda costa 18th century ship",
+   "type": "recit"
+  },
+  {
+   "surtitre": "L'AGRESSION",
+   "texte": "Selon Jenkins, les Espagnols pillent son navire. Leur capitaine lui tranche une oreille, puis le renvoie en Angleterre.",
+   "recherche_image": "18th century merchant brig pirates engraving",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LONDRES · 1738",
+   "texte": "Sept ans plus tard, Jenkins raconte son histoire devant le Parlement. L'opinion s'enflamme, alors que Londres et Madrid se disputent le commerce des Amériques.",
+   "recherche_image": "House of Commons 1730s Walpole",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA GUERRE · 1739",
+   "texte": "En octobre 1739, l'Angleterre déclare la guerre à l'Espagne. Le conflit sera absorbé par la guerre de Succession d'Autriche. Son nom : la guerre de l'oreille de Jenkins.",
+   "recherche_image": "Capture of Portobelo 1739 Vernon",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Abonne-toi pour une histoire vraie chaque jour."
+  }
+ ]
+}
