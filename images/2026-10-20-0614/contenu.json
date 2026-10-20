@@ -1,0 +1,78 @@
+{
+ "sujet": "La guerre anglo-zanzibarite de 1896, la plus courte de l'histoire",
+ "titre": "La guerre la plus courte de l'histoire : moins de 45 min",
+ "description": "Le 27 août 1896, une guerre entre le Royaume-Uni et Zanzibar s'est terminée en moins de 45 minutes. Retour sur le plus court conflit armé connu. #histoire #pourtoi #zanzibar #guerre #anecdotehistorique",
+ "recherche_secours": "Anglo-Zanzibar War 1896",
+ "hooks_candidats": [
+  "La plus courte guerre de l'histoire a duré moins de 45 minutes.",
+  "En 1896, une guerre s'est terminée avant 10 h du matin.",
+  "Cette guerre a commencé à 9 h 02. Elle était déjà finie à 10 h.",
+  "Un seul blessé côté britannique : la guerre la plus courte du monde.",
+  "En 1896, un palais a été détruit en moins d'une heure."
+ ],
+ "accroche": {
+  "surtitre": "ZANZIBAR · 1896",
+  "texte": "La plus courte guerre de l'histoire a duré moins de 45 minutes.",
+  "recherche_image": "Zanzibar palace bombardment 1896"
+ },
+ "recit": [
+  {
+   "surtitre": "ZANZIBAR · AOÛT 1896",
+   "texte": "Août 1896, Zanzibar. Le sultan meurt subitement. Son cousin Khalid s'empare du palais sans l'accord de Londres.",
+   "recherche_image": "Sultan Khalid bin Barghash Zanzibar"
+  },
+  {
+   "surtitre": "L'ULTIMATUM",
+   "texte": "Les Britanniques lui donnent un ultimatum : partir avant 9 h le 27 août. Khalid refuse et retranche environ 2 800 hommes.",
+   "recherche_image": "Zanzibar Sultan palace 1896 Beit al-Hukm"
+  },
+  {
+   "surtitre": "27 AOÛT · 9 H 02",
+   "texte": "À 9 h 02, les navires de guerre britanniques ouvrent le feu. Le palais en bois s'embrase, le yacht du sultan coule.",
+   "recherche_image": "Royal Navy ships Zanzibar 1896 bombardment"
+  },
+  {
+   "surtitre": "LE BILAN",
+   "texte": "Le tir cesse après 38 à 45 minutes selon les sources. Environ 500 Zanzibarites touchés, un seul blessé britannique.",
+   "recherche_image": "Zanzibar palace ruins 1896"
+  }
+ ],
+ "cta": "Abonne-toi pour une histoire vraie chaque jour.",
+ "slides": [
+  {
+   "surtitre": "ZANZIBAR · 1896",
+   "texte": "La plus courte guerre de l'histoire a duré moins de 45 minutes.",
+   "recherche_image": "Zanzibar palace bombardment 1896",
+   "type": "hook"
+  },
+  {
+   "surtitre": "ZANZIBAR · AOÛT 1896",
+   "texte": "Août 1896, Zanzibar. Le sultan meurt subitement. Son cousin Khalid s'empare du palais sans l'accord de Londres.",
+   "recherche_image": "Sultan Khalid bin Barghash Zanzibar",
+   "type": "recit"
+  },
+  {
+   "surtitre": "L'ULTIMATUM",
+   "texte": "Les Britanniques lui donnent un ultimatum : partir avant 9 h le 27 août. Khalid refuse et retranche environ 2 800 hommes.",
+   "recherche_image": "Zanzibar Sultan palace 1896 Beit al-Hukm",
+   "type": "recit"
+  },
+  {
+   "surtitre": "27 AOÛT · 9 H 02",
+   "texte": "À 9 h 02, les navires de guerre britanniques ouvrent le feu. Le palais en bois s'embrase, le yacht du sultan coule.",
+   "recherche_image": "Royal Navy ships Zanzibar 1896 bombardment",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LE BILAN",
+   "texte": "Le tir cesse après 38 à 45 minutes selon les sources. Environ 500 Zanzibarites touchés, un seul blessé britannique.",
+   "recherche_image": "Zanzibar palace ruins 1896",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Abonne-toi pour une histoire vraie chaque jour."
+  }
+ ]
+}
