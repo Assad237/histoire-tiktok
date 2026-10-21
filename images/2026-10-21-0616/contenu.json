@@ -1,0 +1,78 @@
+{
+ "sujet": "L'épidémie de danse de Strasbourg (1518)",
+ "titre": "1518 : Strasbourg danse sans pouvoir s'arrêter",
+ "description": "En juillet 1518, une femme se met à danser dans une rue de Strasbourg, et des centaines de personnes la suivent. Les chroniques sont solides, mais la cause reste débattue : ergot de seigle, hystérie collective ? #histoire #pourtoi #moyenage #strasbourg #anecdotehistorique",
+ "recherche_secours": "dancing plague 1518 Strasbourg",
+ "hooks_candidats": [
+  "En 1518, des centaines de Strasbourgeois dansent sans pouvoir s'arrêter.",
+  "En 1518, Strasbourg a dansé pendant des semaines. Personne ne pouvait s'arrêter.",
+  "Sa danse a duré des jours. Puis des centaines l'ont rejointe.",
+  "1518 : la pire épidémie de Strasbourg n'était pas une maladie... mais une danse.",
+  "Son remède contre la danse folle : faire danser encore plus."
+ ],
+ "accroche": {
+  "surtitre": "STRASBOURG · 1518",
+  "texte": "En 1518, des centaines de Strasbourgeois dansent sans pouvoir s'arrêter.",
+  "recherche_image": "dancing plague 1518 Hendrik Hondius"
+ },
+ "recit": [
+  {
+   "surtitre": "JUILLET 1518",
+   "texte": "Juillet 1518. Une femme, Frau Troffea, se met à danser seule dans une rue de Strasbourg. Elle danse pendant des jours.",
+   "recherche_image": "Strasbourg 16th century engraving"
+  },
+  {
+   "surtitre": "LA DANSE S'ÉTEND",
+   "texte": "Des dizaines de personnes la rejoignent. En un mois, elles seraient environ 400. Les chroniques les décrivent épuisées, en détresse.",
+   "recherche_image": "dancing mania medieval Brueghel"
+  },
+  {
+   "surtitre": "LE MAUVAIS REMÈDE",
+   "texte": "Les autorités pensent à un « sang chaud ». Leur solution : danser encore. Elles ouvrent des salles et paient des musiciens.",
+   "recherche_image": "medieval musicians guildhall engraving"
+  },
+  {
+   "surtitre": "LA FIN DU MYSTÈRE ?",
+   "texte": "Les danseurs sont conduits au sanctuaire de saint Guy, à Saverne. En septembre, l'épidémie cesse. Sa cause reste un mystère.",
+   "recherche_image": "Saint Vitus Saverne chapel"
+  }
+ ],
+ "cta": "Tu aimes l'Histoire ? Abonne-toi.",
+ "slides": [
+  {
+   "surtitre": "STRASBOURG · 1518",
+   "texte": "En 1518, des centaines de Strasbourgeois dansent sans pouvoir s'arrêter.",
+   "recherche_image": "dancing plague 1518 Hendrik Hondius",
+   "type": "hook"
+  },
+  {
+   "surtitre": "JUILLET 1518",
+   "texte": "Juillet 1518. Une femme, Frau Troffea, se met à danser seule dans une rue de Strasbourg. Elle danse pendant des jours.",
+   "recherche_image": "Strasbourg 16th century engraving",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA DANSE S'ÉTEND",
+   "texte": "Des dizaines de personnes la rejoignent. En un mois, elles seraient environ 400. Les chroniques les décrivent épuisées, en détresse.",
+   "recherche_image": "dancing mania medieval Brueghel",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LE MAUVAIS REMÈDE",
+   "texte": "Les autorités pensent à un « sang chaud ». Leur solution : danser encore. Elles ouvrent des salles et paient des musiciens.",
+   "recherche_image": "medieval musicians guildhall engraving",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA FIN DU MYSTÈRE ?",
+   "texte": "Les danseurs sont conduits au sanctuaire de saint Guy, à Saverne. En septembre, l'épidémie cesse. Sa cause reste un mystère.",
+   "recherche_image": "Saint Vitus Saverne chapel",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Tu aimes l'Histoire ? Abonne-toi."
+  }
+ ]
+}
