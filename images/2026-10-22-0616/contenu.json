@@ -1,0 +1,78 @@
+{
+ "sujet": "La Grande Puanteur de Londres (1858) : l'odeur de la Tamise paralyse le Parlement et mène à la construction des égouts de Bazalgette",
+ "titre": "1858 : l'odeur qui a paralysé le Parlement de Londres",
+ "description": "En 1858, la Tamise empeste tellement que le Parlement britannique ne peut plus siéger normalement. Cette crise a donné naissance aux égouts de Londres, encore utilisés aujourd'hui. #histoire #pourtoi #londres #anecdotehistorique #apprendresurtiktok",
+ "recherche_secours": "Great Stink London Thames 1858",
+ "hooks_candidats": [
+  "En 1858, une puanteur a forcé Londres à tout reconstruire.",
+  "En 1858, une odeur a paralysé le Parlement britannique.",
+  "Londres, 1858 : le fleuve sent si mauvais que tout s'arrête.",
+  "Cet été-là, la pire odeur du monde a envahi Londres.",
+  "Une odeur a mis à genoux la capitale de l'Empire britannique."
+ ],
+ "accroche": {
+  "surtitre": "LONDRES · 1858",
+  "texte": "En 1858, une puanteur a forcé Londres à tout reconstruire.",
+  "recherche_image": "Thames London 1858 Great Stink"
+ },
+ "recit": [
+  {
+   "surtitre": "LONDRES · ÉTÉ 1858",
+   "texte": "Londres, 1858. Les égouts et les fosses se déversent directement dans la Tamise. L'été est brûlant, et le fleuve fermente.",
+   "recherche_image": "Thames river pollution Victorian London"
+  },
+  {
+   "surtitre": "LA THÉORIE DES MIASMES",
+   "texte": "À l'époque, on croit que les maladies viennent des mauvaises odeurs. Le choléra a déjà tué des milliers de Londoniens.",
+   "recherche_image": "Faraday giving his card to Father Thames"
+  },
+  {
+   "surtitre": "LE PARLEMENT ASSIÉGÉ",
+   "texte": "Le Parlement donne sur la Tamise. On suspend aux fenêtres des rideaux trempés de chlorure de chaux, mais l'odeur est insupportable.",
+   "recherche_image": "Palace of Westminster 1858 Thames"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "En quelques semaines, le Parlement vote les fonds. Joseph Bazalgette bâtit des égouts géants, toujours utilisés aujourd'hui. Tout ça, à cause d'une odeur.",
+   "recherche_image": "Joseph Bazalgette sewer construction London"
+  }
+ ],
+ "cta": "Abonne-toi pour une histoire vraie chaque jour.",
+ "slides": [
+  {
+   "surtitre": "LONDRES · 1858",
+   "texte": "En 1858, une puanteur a forcé Londres à tout reconstruire.",
+   "recherche_image": "Thames London 1858 Great Stink",
+   "type": "hook"
+  },
+  {
+   "surtitre": "LONDRES · ÉTÉ 1858",
+   "texte": "Londres, 1858. Les égouts et les fosses se déversent directement dans la Tamise. L'été est brûlant, et le fleuve fermente.",
+   "recherche_image": "Thames river pollution Victorian London",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA THÉORIE DES MIASMES",
+   "texte": "À l'époque, on croit que les maladies viennent des mauvaises odeurs. Le choléra a déjà tué des milliers de Londoniens.",
+   "recherche_image": "Faraday giving his card to Father Thames",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LE PARLEMENT ASSIÉGÉ",
+   "texte": "Le Parlement donne sur la Tamise. On suspend aux fenêtres des rideaux trempés de chlorure de chaux, mais l'odeur est insupportable.",
+   "recherche_image": "Palace of Westminster 1858 Thames",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "En quelques semaines, le Parlement vote les fonds. Joseph Bazalgette bâtit des égouts géants, toujours utilisés aujourd'hui. Tout ça, à cause d'une odeur.",
+   "recherche_image": "Joseph Bazalgette sewer construction London",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Abonne-toi pour une histoire vraie chaque jour."
+  }
+ ]
+}
