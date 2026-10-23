@@ -1,0 +1,67 @@
+{
+ "sujet": "La mort de Jean-Baptiste Lully (1687), tué par sa canne de chef d'orchestre",
+ "titre": "Le musicien de Louis XIV tué par sa canne",
+ "description": "En 1687, Lully, compositeur de Louis XIV, se blesse avec sa canne de direction en dirigeant un Te Deum. Quelques semaines plus tard, il meurt de la gangrène. #histoire #pourtoi #louisxiv #musique #apprendresurtiktok",
+ "recherche_secours": "Jean-Baptiste Lully portrait",
+ "hooks_candidats": [
+  "En 1687, le musicien de Louis XIV est mort d'un coup de canne.",
+  "Ce compositeur a dirigé son dernier concert… et en est mort.",
+  "Le Roi-Soleil a survécu. Son musicien, non. Pour une canne.",
+  "Un orchestre, une canne, un pied : la mort absurde de Lully.",
+  "Il est mort pour avoir trop bien battu la mesure."
+ ],
+ "accroche": {
+  "surtitre": "VERSAILLES · 1687",
+  "texte": "En 1687, le musicien de Louis XIV est mort d'un coup de canne.",
+  "recherche_image": "Jean-Baptiste Lully portrait"
+ },
+ "recit": [
+  {
+   "surtitre": "VERSAILLES · 1686",
+   "texte": "Fin 1686, Louis XIV est opéré d'une fistule et s'en sort. Son compositeur, Lully, écrit un Te Deum pour fêter ça.",
+   "recherche_image": "Louis XIV 17th century portrait"
+  },
+  {
+   "surtitre": "PARIS · 8 JANVIER 1687",
+   "texte": "Lully dirige en frappant le sol d'une grande canne, pour marquer la mesure. Ce jour-là, il se heurte violemment le pied.",
+   "recherche_image": "Lully conducting cane engraving"
+  },
+  {
+   "surtitre": "PARIS · 22 MARS 1687",
+   "texte": "La plaie s'infecte, la gangrène monte. Lully refuse, dit-on, l'amputation. Il meurt le 22 mars 1687, à 54 ans.",
+   "recherche_image": "Lully death 1687 engraving"
+  }
+ ],
+ "cta": "Tu aimes l'Histoire ? Abonne-toi.",
+ "slides": [
+  {
+   "surtitre": "VERSAILLES · 1687",
+   "texte": "En 1687, le musicien de Louis XIV est mort d'un coup de canne.",
+   "recherche_image": "Jean-Baptiste Lully portrait",
+   "type": "hook"
+  },
+  {
+   "surtitre": "VERSAILLES · 1686",
+   "texte": "Fin 1686, Louis XIV est opéré d'une fistule et s'en sort. Son compositeur, Lully, écrit un Te Deum pour fêter ça.",
+   "recherche_image": "Louis XIV 17th century portrait",
+   "type": "recit"
+  },
+  {
+   "surtitre": "PARIS · 8 JANVIER 1687",
+   "texte": "Lully dirige en frappant le sol d'une grande canne, pour marquer la mesure. Ce jour-là, il se heurte violemment le pied.",
+   "recherche_image": "Lully conducting cane engraving",
+   "type": "recit"
+  },
+  {
+   "surtitre": "PARIS · 22 MARS 1687",
+   "texte": "La plaie s'infecte, la gangrène monte. Lully refuse, dit-on, l'amputation. Il meurt le 22 mars 1687, à 54 ans.",
+   "recherche_image": "Lully death 1687 engraving",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Tu aimes l'Histoire ? Abonne-toi."
+  }
+ ]
+}
