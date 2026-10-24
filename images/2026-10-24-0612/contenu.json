@@ -1,0 +1,78 @@
+{
+ "sujet": "L'opération Mincemeat (1943) : un cadavre déguisé en officier pour tromper Hitler avant le débarquement en Sicile",
+ "titre": "Opération Mincemeat : le cadavre qui a trompé Hitler",
+ "description": "En 1943, les services secrets britanniques utilisent un cadavre muni de faux documents pour détourner l'attention d'Hitler de la Sicile. Le plan a fonctionné, et l'identité du mort n'a été révélée qu'en 1996. #histoire #pourtoi #secondeguerremondiale #espionnage #histoirevraie",
+ "recherche_secours": "Operation Mincemeat 1943",
+ "hooks_candidats": [
+  "Un mort sans nom a trompé Hitler en 1943.",
+  "En 1943, les Alliés ont trompé Hitler avec un cadavre.",
+  "Ce cadavre a changé le cours de la Seconde Guerre mondiale.",
+  "Il est mort anonyme, puis a dupé toute l'armée d'Hitler.",
+  "En 1943, un corps jeté à la mer a sauvé des milliers de soldats."
+ ],
+ "accroche": {
+  "surtitre": "OPÉRATION MINCEMEAT · 1943",
+  "texte": "Un mort sans nom a trompé Hitler en 1943.",
+  "recherche_image": "Operation Mincemeat"
+ },
+ "recit": [
+  {
+   "surtitre": "ÉTÉ 1943",
+   "texte": "Les Alliés veulent envahir la Sicile. Problème : Hitler sait que c'est la cible évidente.",
+   "recherche_image": "Sicily 1943 map"
+  },
+  {
+   "surtitre": "LE PLAN",
+   "texte": "Les Britanniques prennent un cadavre et lui inventent une vie : le major William Martin, des Royal Marines. Il n'a jamais existé.",
+   "recherche_image": "Operation Mincemeat Major Martin"
+  },
+  {
+   "surtitre": "HUELVA · 30 AVRIL",
+   "texte": "Un sous-marin britannique dépose le corps au large de l'Espagne. Dans ses poches, de faux documents parlent de Grèce et de Sardaigne.",
+   "recherche_image": "HMS Seraph submarine"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "Hitler mord à l'hameçon et renforce la Grèce. Le 10 juillet, les Alliés débarquent en Sicile. Le mort ? Un sans-abri gallois, identifié en 1996.",
+   "recherche_image": "Allied invasion of Sicily 1943"
+  }
+ ],
+ "cta": "Tu aimes l'Histoire ? Abonne-toi.",
+ "slides": [
+  {
+   "surtitre": "OPÉRATION MINCEMEAT · 1943",
+   "texte": "Un mort sans nom a trompé Hitler en 1943.",
+   "recherche_image": "Operation Mincemeat",
+   "type": "hook"
+  },
+  {
+   "surtitre": "ÉTÉ 1943",
+   "texte": "Les Alliés veulent envahir la Sicile. Problème : Hitler sait que c'est la cible évidente.",
+   "recherche_image": "Sicily 1943 map",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LE PLAN",
+   "texte": "Les Britanniques prennent un cadavre et lui inventent une vie : le major William Martin, des Royal Marines. Il n'a jamais existé.",
+   "recherche_image": "Operation Mincemeat Major Martin",
+   "type": "recit"
+  },
+  {
+   "surtitre": "HUELVA · 30 AVRIL",
+   "texte": "Un sous-marin britannique dépose le corps au large de l'Espagne. Dans ses poches, de faux documents parlent de Grèce et de Sardaigne.",
+   "recherche_image": "HMS Seraph submarine",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "Hitler mord à l'hameçon et renforce la Grèce. Le 10 juillet, les Alliés débarquent en Sicile. Le mort ? Un sans-abri gallois, identifié en 1996.",
+   "recherche_image": "Allied invasion of Sicily 1943",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Tu aimes l'Histoire ? Abonne-toi."
+  }
+ ]
+}
