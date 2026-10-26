@@ -1,0 +1,67 @@
+{
+ "sujet": "Les procès d'animaux au Moyen Âge : la truie de Falaise (1386) et celle de Savigny (1457)",
+ "titre": "1386 : une truie jugée et pendue pour meurtre",
+ "description": "Au Moyen Âge, la justice française jugeait des animaux comme des humains. En 1386, une truie est condamnée à mort à Falaise, et en 1457 une autre passe en procès à Savigny. #histoire #moyenage #pourtoi #histoirevraie #apprendresurtiktok",
+ "recherche_secours": "medieval animal trial pig",
+ "hooks_candidats": [
+  "En 1386, une truie a été jugée pour meurtre.",
+  "Ce cochon a eu droit à un vrai procès. Puis à la corde.",
+  "En 1386, la justice a pendu un cochon.",
+  "Au Moyen Âge, un cochon pouvait finir devant un tribunal.",
+  "En Normandie, une truie a été condamnée à mort."
+ ],
+ "accroche": {
+  "surtitre": "NORMANDIE · 1386",
+  "texte": "En 1386, une truie a été jugée pour meurtre.",
+  "recherche_image": "medieval pig trial"
+ },
+ "recit": [
+  {
+   "surtitre": "FALAISE · 1386",
+   "texte": "En Normandie, un bébé meurt après l'attaque d'une truie. La justice ne cherche pas le propriétaire. Elle arrête l'animal.",
+   "recherche_image": "Falaise Normandy medieval"
+  },
+  {
+   "surtitre": "LE VERDICT",
+   "texte": "Procès en règle. Verdict : la mort. La truie est habillée en humain, puis pendue sur la place publique, devant la foule.",
+   "recherche_image": "sow hanged execution medieval"
+  },
+  {
+   "surtitre": "SAVIGNY · 1457",
+   "texte": "Soixante-dix ans plus tard, une truie et ses six porcelets sont jugés. Elle est condamnée. Les petits, trop jeunes, sont épargnés.",
+   "recherche_image": "Savigny sow trial 1457"
+  }
+ ],
+ "cta": "Tu aimes l'Histoire ? Abonne-toi.",
+ "slides": [
+  {
+   "surtitre": "NORMANDIE · 1386",
+   "texte": "En 1386, une truie a été jugée pour meurtre.",
+   "recherche_image": "medieval pig trial",
+   "type": "hook"
+  },
+  {
+   "surtitre": "FALAISE · 1386",
+   "texte": "En Normandie, un bébé meurt après l'attaque d'une truie. La justice ne cherche pas le propriétaire. Elle arrête l'animal.",
+   "recherche_image": "Falaise Normandy medieval",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LE VERDICT",
+   "texte": "Procès en règle. Verdict : la mort. La truie est habillée en humain, puis pendue sur la place publique, devant la foule.",
+   "recherche_image": "sow hanged execution medieval",
+   "type": "recit"
+  },
+  {
+   "surtitre": "SAVIGNY · 1457",
+   "texte": "Soixante-dix ans plus tard, une truie et ses six porcelets sont jugés. Elle est condamnée. Les petits, trop jeunes, sont épargnés.",
+   "recherche_image": "Savigny sow trial 1457",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Tu aimes l'Histoire ? Abonne-toi."
+  }
+ ]
+}
