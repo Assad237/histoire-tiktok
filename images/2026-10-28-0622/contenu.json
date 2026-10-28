@@ -1,0 +1,78 @@
+{
+ "sujet": "La campagne contre les moineaux en Chine (1958), lancée par Mao Zedong pendant le Grand Bond en avant",
+ "titre": "1958 : la Chine déclare la guerre aux moineaux",
+ "description": "En 1958, Mao lance tout un peuple contre les moineaux, accusés de manger les récoltes. Une décision qui a bouleversé l'équilibre écologique du pays. #histoire #pourtoi #chine #mao #histoirevraie",
+ "recherche_secours": "Mao Zedong, Great Leap Forward, sparrow",
+ "hooks_candidats": [
+  "En 1958, toute la Chine a déclaré la guerre aux moineaux.",
+  "Mao a ordonné à 600 millions de personnes de chasser un oiseau.",
+  "Cet oiseau a été condamné à mort par tout un pays.",
+  "Ils tapaient sur des casseroles pour faire tomber des oiseaux du ciel.",
+  "Une campagne contre des oiseaux a aggravé une famine."
+ ],
+ "accroche": {
+  "surtitre": "CHINE · 1958",
+  "texte": "En 1958, toute la Chine a déclaré la guerre aux moineaux.",
+  "recherche_image": "Four Pests campaign poster China"
+ },
+ "recit": [
+  {
+   "surtitre": "LES QUATRE NUISIBLES",
+   "texte": "1958. Mao lance la campagne des « quatre nuisibles » : rats, mouches, moustiques… et moineaux, accusés de manger les grains.",
+   "recherche_image": "Four Pests campaign China 1958"
+  },
+  {
+   "surtitre": "UN PAYS MOBILISÉ",
+   "texte": "Tout le pays est mobilisé. On tape sur des casseroles et des tambours : les moineaux, qui ne peuvent plus se poser, tombent d'épuisement.",
+   "recherche_image": "Great Leap Forward China sparrows"
+  },
+  {
+   "surtitre": "L'ERREUR",
+   "texte": "Problème : les moineaux mangeaient aussi des insectes. Sans eux, les insectes prolifèrent et s'attaquent aux récoltes.",
+   "recherche_image": "Eurasian tree sparrow"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "1960 : le moineau est retiré de la liste, remplacé par la punaise. La famine du Grand Bond en avant, aggravée par ce chaos, fera des millions de morts.",
+   "recherche_image": "Great Chinese Famine 1960"
+  }
+ ],
+ "cta": "Tu aimes l'Histoire ? Abonne-toi.",
+ "slides": [
+  {
+   "surtitre": "CHINE · 1958",
+   "texte": "En 1958, toute la Chine a déclaré la guerre aux moineaux.",
+   "recherche_image": "Four Pests campaign poster China",
+   "type": "hook"
+  },
+  {
+   "surtitre": "LES QUATRE NUISIBLES",
+   "texte": "1958. Mao lance la campagne des « quatre nuisibles » : rats, mouches, moustiques… et moineaux, accusés de manger les grains.",
+   "recherche_image": "Four Pests campaign China 1958",
+   "type": "recit"
+  },
+  {
+   "surtitre": "UN PAYS MOBILISÉ",
+   "texte": "Tout le pays est mobilisé. On tape sur des casseroles et des tambours : les moineaux, qui ne peuvent plus se poser, tombent d'épuisement.",
+   "recherche_image": "Great Leap Forward China sparrows",
+   "type": "recit"
+  },
+  {
+   "surtitre": "L'ERREUR",
+   "texte": "Problème : les moineaux mangeaient aussi des insectes. Sans eux, les insectes prolifèrent et s'attaquent aux récoltes.",
+   "recherche_image": "Eurasian tree sparrow",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "1960 : le moineau est retiré de la liste, remplacé par la punaise. La famine du Grand Bond en avant, aggravée par ce chaos, fera des millions de morts.",
+   "recherche_image": "Great Chinese Famine 1960",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Tu aimes l'Histoire ? Abonne-toi."
+  }
+ ]
+}
