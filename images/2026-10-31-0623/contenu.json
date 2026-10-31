@@ -1,0 +1,89 @@
+{
+ "sujet": "La guerre du Football (Honduras - Salvador, 1969)",
+ "titre": "1969 : un match de foot déclenche une guerre",
+ "description": "En 1969, les qualifications pour le Mondial ont viré à un conflit armé entre le Honduras et le Salvador. Retour sur la guerre des 100 heures, où le football a servi d'étincelle. #histoire #pourtoi #guerredufootball #savoirinutile #apprendresurtiktok",
+ "recherche_secours": "Honduras El Salvador 1969 war",
+ "hooks_candidats": [
+  "En 1969, un match de foot a déclenché une vraie guerre.",
+  "Deux pays ont fait la guerre après un match de foot.",
+  "Cette guerre a duré 100 heures. Le déclencheur : un ballon.",
+  "1969 : des soldats envahissent un pays à cause du foot.",
+  "Un match de qualification a coûté la vie à des milliers de gens."
+ ],
+ "accroche": {
+  "surtitre": "AMÉRIQUE CENTRALE · 1969",
+  "texte": "En 1969, un match de foot a déclenché une vraie guerre.",
+  "recherche_image": "Honduras El Salvador war 1969"
+ },
+ "recit": [
+  {
+   "surtitre": "UNE POUDRIÈRE",
+   "texte": "Le Honduras et le Salvador sont déjà au bord de la crise. Des centaines de milliers de Salvadoriens vivent au Honduras, et une réforme agraire les expulse.",
+   "recherche_image": "Honduras El Salvador border map"
+  },
+  {
+   "surtitre": "LES MATCHS · JUIN 1969",
+   "texte": "Les deux pays s'affrontent pour une place au Mondial 1970. Le Honduras gagne 1-0 le 8 juin, le Salvador 3-0 le 15. Il faut un match d'appui.",
+   "recherche_image": "1970 FIFA World Cup qualification football"
+  },
+  {
+   "surtitre": "MEXICO · 27 JUIN",
+   "texte": "La veille du match d'appui, le Salvador rompt ses relations diplomatiques avec le Honduras. Le 27 juin, à Mexico, il gagne 3-2 en prolongation.",
+   "recherche_image": "Estadio Azteca 1969"
+  },
+  {
+   "surtitre": "14 JUILLET 1969",
+   "texte": "Le 14 juillet, l'armée salvadorienne envahit le Honduras. Après environ 100 heures, l'OEA impose un cessez-le-feu. Bilan : des milliers de morts.",
+   "recherche_image": "Salvadoran Air Force 1969 Honduras"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "Le Salvador ira bien au Mondial 1970 : trois défaites, zéro but marqué. Le traité de paix avec le Honduras, lui, ne sera signé qu'en 1980.",
+   "recherche_image": "El Salvador 1970 World Cup team"
+  }
+ ],
+ "cta": "Tu aimes l'Histoire ? Abonne-toi.",
+ "slides": [
+  {
+   "surtitre": "AMÉRIQUE CENTRALE · 1969",
+   "texte": "En 1969, un match de foot a déclenché une vraie guerre.",
+   "recherche_image": "Honduras El Salvador war 1969",
+   "type": "hook"
+  },
+  {
+   "surtitre": "UNE POUDRIÈRE",
+   "texte": "Le Honduras et le Salvador sont déjà au bord de la crise. Des centaines de milliers de Salvadoriens vivent au Honduras, et une réforme agraire les expulse.",
+   "recherche_image": "Honduras El Salvador border map",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LES MATCHS · JUIN 1969",
+   "texte": "Les deux pays s'affrontent pour une place au Mondial 1970. Le Honduras gagne 1-0 le 8 juin, le Salvador 3-0 le 15. Il faut un match d'appui.",
+   "recherche_image": "1970 FIFA World Cup qualification football",
+   "type": "recit"
+  },
+  {
+   "surtitre": "MEXICO · 27 JUIN",
+   "texte": "La veille du match d'appui, le Salvador rompt ses relations diplomatiques avec le Honduras. Le 27 juin, à Mexico, il gagne 3-2 en prolongation.",
+   "recherche_image": "Estadio Azteca 1969",
+   "type": "recit"
+  },
+  {
+   "surtitre": "14 JUILLET 1969",
+   "texte": "Le 14 juillet, l'armée salvadorienne envahit le Honduras. Après environ 100 heures, l'OEA impose un cessez-le-feu. Bilan : des milliers de morts.",
+   "recherche_image": "Salvadoran Air Force 1969 Honduras",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "Le Salvador ira bien au Mondial 1970 : trois défaites, zéro but marqué. Le traité de paix avec le Honduras, lui, ne sera signé qu'en 1980.",
+   "recherche_image": "El Salvador 1970 World Cup team",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Tu aimes l'Histoire ? Abonne-toi."
+  }
+ ]
+}
