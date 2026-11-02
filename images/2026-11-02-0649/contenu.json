@@ -1,0 +1,78 @@
+{
+ "sujet": "L'affaire Mary Toft, la femme qui prétendait accoucher de lapins (Angleterre, 1726)",
+ "titre": "1726 : elle accouche de lapins, les médecins du roi y croient",
+ "description": "En 1726, une paysanne anglaise prétend mettre au monde des lapins, et les médecins du roi s'y laissent prendre. Une histoire vraie de supercherie qui a ridiculisé la médecine de l'époque. #histoire #pourtoi #apprendresurtiktok #histoirevraie #anecdotehistorique",
+ "recherche_secours": "Mary Toft rabbits Hogarth",
+ "hooks_candidats": [
+  "En 1726, une Anglaise accouche de lapins. Les médecins du roi y croient.",
+  "Le chirurgien du roi a vu une femme accoucher de lapins.",
+  "En 1726, toute l'Angleterre a cru à une femme-lapin.",
+  "Elle a dupé les médecins du roi avec… des lapins morts.",
+  "Cette paysanne a ridiculisé la médecine anglaise avec un lapin."
+ ],
+ "accroche": {
+  "surtitre": "ANGLETERRE · 1726",
+  "texte": "En 1726, une Anglaise accouche de lapins. Les médecins du roi y croient.",
+  "recherche_image": "Mary Toft rabbits engraving"
+ },
+ "recit": [
+  {
+   "surtitre": "GODALMING · NOVEMBRE 1726",
+   "texte": "En novembre 1726, Mary Toft, paysanne du Surrey, affirme accoucher de morceaux de lapin. Un chirurgien local, John Howard, le certifie.",
+   "recherche_image": "Godalming Surrey 18th century"
+  },
+  {
+   "surtitre": "LA RUMEUR ATTEINT LE ROI",
+   "texte": "La rumeur arrive à Londres. George Ier envoie son chirurgien, Nathaniel St André. Il assiste à un accouchement… et y croit.",
+   "recherche_image": "Nathaniel St André surgeon"
+  },
+  {
+   "surtitre": "LONDRES · DÉCEMBRE 1726",
+   "texte": "Mary est installée à Londres et surveillée par des médecins. Un portier est surpris avec un lapin pour elle. Elle avoue : tout était faux.",
+   "recherche_image": "Mary Toft confession 1726"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "St André est ridiculisé, sa carrière est brisée. Hogarth le caricature. Mary est brièvement emprisonnée, puis libérée sans procès.",
+   "recherche_image": "Hogarth Cunicularii Wise Men of Godliman"
+  }
+ ],
+ "cta": "Abonne-toi pour une histoire vraie chaque jour.",
+ "slides": [
+  {
+   "surtitre": "ANGLETERRE · 1726",
+   "texte": "En 1726, une Anglaise accouche de lapins. Les médecins du roi y croient.",
+   "recherche_image": "Mary Toft rabbits engraving",
+   "type": "hook"
+  },
+  {
+   "surtitre": "GODALMING · NOVEMBRE 1726",
+   "texte": "En novembre 1726, Mary Toft, paysanne du Surrey, affirme accoucher de morceaux de lapin. Un chirurgien local, John Howard, le certifie.",
+   "recherche_image": "Godalming Surrey 18th century",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA RUMEUR ATTEINT LE ROI",
+   "texte": "La rumeur arrive à Londres. George Ier envoie son chirurgien, Nathaniel St André. Il assiste à un accouchement… et y croit.",
+   "recherche_image": "Nathaniel St André surgeon",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LONDRES · DÉCEMBRE 1726",
+   "texte": "Mary est installée à Londres et surveillée par des médecins. Un portier est surpris avec un lapin pour elle. Elle avoue : tout était faux.",
+   "recherche_image": "Mary Toft confession 1726",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "St André est ridiculisé, sa carrière est brisée. Hogarth le caricature. Mary est brièvement emprisonnée, puis libérée sans procès.",
+   "recherche_image": "Hogarth Cunicularii Wise Men of Godliman",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Abonne-toi pour une histoire vraie chaque jour."
+  }
+ ]
+}
