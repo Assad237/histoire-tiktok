@@ -1,0 +1,89 @@
+{
+ "sujet": "Victor Lustig, l'escroc qui a vendu la tour Eiffel (Paris, 1925)",
+ "titre": "Il a vendu la tour Eiffel. Deux fois.",
+ "description": "En 1925, Victor Lustig a vendu la tour Eiffel à un ferrailleur parisien, puis a recommencé. Il a ensuite arnaqué Al Capone avant de finir à Alcatraz. #histoire #pourtoi #apprendresurtiktok #escroc #toureiffel",
+ "recherche_secours": "Eiffel Tower 1925 Paris",
+ "hooks_candidats": [
+  "En 1925, il a vendu la tour Eiffel. Deux fois.",
+  "Il a vendu la tour Eiffel à un ferrailleur.",
+  "Cet escroc a arnaqué Al Capone en personne.",
+  "Paris, 1925 : la tour Eiffel est vendue à la casse.",
+  "La tour Eiffel a failli finir en ferraille. À cause d'un menteur."
+ ],
+ "accroche": {
+  "surtitre": "PARIS · 1925",
+  "texte": "En 1925, il a vendu la tour Eiffel. Deux fois.",
+  "recherche_image": "Eiffel Tower 1920s Paris"
+ },
+ "recit": [
+  {
+   "surtitre": "PARIS · 1925",
+   "texte": "Paris, 1925. Les journaux parlent du coût d'entretien de la tour Eiffel. Un escroc lit ça et y voit une occasion en or.",
+   "recherche_image": "Eiffel Tower 1925 photograph"
+  },
+  {
+   "surtitre": "HÔTEL DE CRILLON",
+   "texte": "Victor Lustig convoque six ferrailleurs au Crillon. Il se fait passer pour un haut fonctionnaire et annonce que la tour va être démolie.",
+   "recherche_image": "Hôtel de Crillon Paris 1920s"
+  },
+  {
+   "surtitre": "LA VENTE",
+   "texte": "André Poisson paie, pot-de-vin compris. Lustig file à Vienne avec l'argent. Poisson, trop honteux, n'ose pas porter plainte.",
+   "recherche_image": "Victor Lustig con man"
+  },
+  {
+   "surtitre": "LE SECOND COUP",
+   "texte": "Lustig revient à Paris et retente le coup avec d'autres victimes. Cette fois, l'une d'elles alerte la police. Il s'enfuit aux États-Unis.",
+   "recherche_image": "Paris police 1925 Préfecture"
+  },
+  {
+   "surtitre": "ÉTATS-UNIS · 1930s",
+   "texte": "Il y arnaque même Al Capone, puis finit à Alcatraz pour fausse monnaie. La tour Eiffel, elle, est toujours debout.",
+   "recherche_image": "Alcatraz Island prison 1930s"
+  }
+ ],
+ "cta": "Tu aimes l'Histoire ? Abonne-toi.",
+ "slides": [
+  {
+   "surtitre": "PARIS · 1925",
+   "texte": "En 1925, il a vendu la tour Eiffel. Deux fois.",
+   "recherche_image": "Eiffel Tower 1920s Paris",
+   "type": "hook"
+  },
+  {
+   "surtitre": "PARIS · 1925",
+   "texte": "Paris, 1925. Les journaux parlent du coût d'entretien de la tour Eiffel. Un escroc lit ça et y voit une occasion en or.",
+   "recherche_image": "Eiffel Tower 1925 photograph",
+   "type": "recit"
+  },
+  {
+   "surtitre": "HÔTEL DE CRILLON",
+   "texte": "Victor Lustig convoque six ferrailleurs au Crillon. Il se fait passer pour un haut fonctionnaire et annonce que la tour va être démolie.",
+   "recherche_image": "Hôtel de Crillon Paris 1920s",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA VENTE",
+   "texte": "André Poisson paie, pot-de-vin compris. Lustig file à Vienne avec l'argent. Poisson, trop honteux, n'ose pas porter plainte.",
+   "recherche_image": "Victor Lustig con man",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LE SECOND COUP",
+   "texte": "Lustig revient à Paris et retente le coup avec d'autres victimes. Cette fois, l'une d'elles alerte la police. Il s'enfuit aux États-Unis.",
+   "recherche_image": "Paris police 1925 Préfecture",
+   "type": "recit"
+  },
+  {
+   "surtitre": "ÉTATS-UNIS · 1930s",
+   "texte": "Il y arnaque même Al Capone, puis finit à Alcatraz pour fausse monnaie. La tour Eiffel, elle, est toujours debout.",
+   "recherche_image": "Alcatraz Island prison 1930s",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Tu aimes l'Histoire ? Abonne-toi."
+  }
+ ]
+}
