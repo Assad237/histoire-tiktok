@@ -1,0 +1,78 @@
+{
+ "sujet": "La vente aux enchères de l'Empire romain (193) : Didius Julianus achète le trône aux prétoriens",
+ "titre": "Quand l'Empire romain a été vendu aux enchères",
+ "description": "En 193, les prétoriens ont vendu le trône de Rome au plus offrant. L'acheteur, Didius Julianus, n'a régné que 66 jours. #histoire #pourtoi #rome #antiquité #anecdotehistorique",
+ "recherche_secours": "Roman emperor Praetorian Guard",
+ "hooks_candidats": [
+  "En 193, le trône de Rome a été vendu aux enchères.",
+  "Il a acheté l'Empire romain… et l'a gardé 66 jours.",
+  "À Rome, un empereur a été adjugé au plus offrant.",
+  "Les gardes de l'empereur ont mis Rome en vente.",
+  "Cet homme a payé 25 000 sesterces par soldat pour être empereur."
+ ],
+ "accroche": {
+  "surtitre": "ROME · 193",
+  "texte": "En 193, le trône de Rome a été vendu aux enchères.",
+  "recherche_image": "Didius Julianus"
+ },
+ "recit": [
+  {
+   "surtitre": "UN EMPEREUR ASSASSINÉ",
+   "texte": "Mars 193. Les prétoriens, garde personnelle de l'empereur, assassinent Pertinax après 87 jours de règne. Et là, ils ont une idée.",
+   "recherche_image": "Pertinax emperor"
+  },
+  {
+   "surtitre": "LE TRÔNE ADJUGÉ",
+   "texte": "Le sénateur Didius Julianus l'emporte face au beau-père de Pertinax : 25 000 sesterces par soldat, selon l'historien Dion Cassius.",
+   "recherche_image": "Praetorian Guard Rome"
+  },
+  {
+   "surtitre": "UN EMPEREUR DÉTESTÉ",
+   "texte": "Le peuple le hue. Pendant ce temps, en Pannonie, les légions proclament leur général Septime Sévère, qui marche sur Rome.",
+   "recherche_image": "Septimius Severus"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "Le Sénat le condamne à mort. Un soldat l'achève dans le palais, après 66 jours de règne. Sévère dissoudra ensuite les prétoriens.",
+   "recherche_image": "Roman Senate Septimius Severus"
+  }
+ ],
+ "cta": "Tu aimes l'Histoire ? Abonne-toi.",
+ "slides": [
+  {
+   "surtitre": "ROME · 193",
+   "texte": "En 193, le trône de Rome a été vendu aux enchères.",
+   "recherche_image": "Didius Julianus",
+   "type": "hook"
+  },
+  {
+   "surtitre": "UN EMPEREUR ASSASSINÉ",
+   "texte": "Mars 193. Les prétoriens, garde personnelle de l'empereur, assassinent Pertinax après 87 jours de règne. Et là, ils ont une idée.",
+   "recherche_image": "Pertinax emperor",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LE TRÔNE ADJUGÉ",
+   "texte": "Le sénateur Didius Julianus l'emporte face au beau-père de Pertinax : 25 000 sesterces par soldat, selon l'historien Dion Cassius.",
+   "recherche_image": "Praetorian Guard Rome",
+   "type": "recit"
+  },
+  {
+   "surtitre": "UN EMPEREUR DÉTESTÉ",
+   "texte": "Le peuple le hue. Pendant ce temps, en Pannonie, les légions proclament leur général Septime Sévère, qui marche sur Rome.",
+   "recherche_image": "Septimius Severus",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "Le Sénat le condamne à mort. Un soldat l'achève dans le palais, après 66 jours de règne. Sévère dissoudra ensuite les prétoriens.",
+   "recherche_image": "Roman Senate Septimius Severus",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Tu aimes l'Histoire ? Abonne-toi."
+  }
+ ]
+}
