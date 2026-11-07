@@ -1,0 +1,78 @@
+{
+ "sujet": "Joshua Norton, l'empereur autoproclamé des États-Unis (San Francisco, 1859)",
+ "titre": "L'empereur des États-Unis vivait à San Francisco",
+ "description": "En 1859, un commerçant ruiné se proclame empereur des États-Unis, et toute une ville décide de jouer le jeu. Voici l'histoire vraie de Joshua Norton, dit Norton Ier. #histoire #pourtoi #anecdotehistorique #sanfrancisco #apprendresurtiktok",
+ "recherche_secours": "Emperor Norton San Francisco",
+ "hooks_candidats": [
+  "En 1859, un homme ruiné s'est proclamé empereur des États-Unis.",
+  "Il s'est proclamé empereur des États-Unis. Tout San Francisco a joué le jeu.",
+  "Cet empereur des États-Unis n'a jamais été élu. Ni renversé.",
+  "Il a dissous le Congrès américain par décret. Sans être président.",
+  "Il imprimait sa propre monnaie, et les commerçants l'acceptaient."
+ ],
+ "accroche": {
+  "surtitre": "SAN FRANCISCO · 1859",
+  "texte": "Il s'est proclamé empereur des États-Unis. Tout San Francisco a joué le jeu.",
+  "recherche_image": "Emperor Norton portrait"
+ },
+ "recit": [
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "En 1853, Joshua Norton mise sur le riz péruvien à San Francisco. Les prix s'effondrent. Il est ruiné et fait faillite en 1858.",
+   "recherche_image": "San Francisco 1850s gold rush"
+  },
+  {
+   "surtitre": "17 SEPTEMBRE 1859",
+   "texte": "Il envoie une lettre à un journal local : il se proclame « Norton Ier, empereur des États-Unis ». Le journal la publie.",
+   "recherche_image": "Emperor Norton proclamation 1859"
+  },
+  {
+   "surtitre": "UN EMPEREUR EN UNIFORME",
+   "texte": "Il dissout le Congrès par décret, imprime ses propres billets et inspecte la ville en uniforme. Des commerçants acceptent sa monnaie.",
+   "recherche_image": "Emperor Norton banknote"
+  },
+  {
+   "surtitre": "1867 · 1880",
+   "texte": "En 1867, un policier l'arrête pour folie. Tollé : le chef le libère avec des excuses. À sa mort en 1880, des milliers de personnes suivent ses obsèques.",
+   "recherche_image": "Emperor Norton funeral 1880"
+  }
+ ],
+ "cta": "Tu aimes l'Histoire ? Abonne-toi pour une histoire vraie chaque jour.",
+ "slides": [
+  {
+   "surtitre": "SAN FRANCISCO · 1859",
+   "texte": "Il s'est proclamé empereur des États-Unis. Tout San Francisco a joué le jeu.",
+   "recherche_image": "Emperor Norton portrait",
+   "type": "hook"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "En 1853, Joshua Norton mise sur le riz péruvien à San Francisco. Les prix s'effondrent. Il est ruiné et fait faillite en 1858.",
+   "recherche_image": "San Francisco 1850s gold rush",
+   "type": "recit"
+  },
+  {
+   "surtitre": "17 SEPTEMBRE 1859",
+   "texte": "Il envoie une lettre à un journal local : il se proclame « Norton Ier, empereur des États-Unis ». Le journal la publie.",
+   "recherche_image": "Emperor Norton proclamation 1859",
+   "type": "recit"
+  },
+  {
+   "surtitre": "UN EMPEREUR EN UNIFORME",
+   "texte": "Il dissout le Congrès par décret, imprime ses propres billets et inspecte la ville en uniforme. Des commerçants acceptent sa monnaie.",
+   "recherche_image": "Emperor Norton banknote",
+   "type": "recit"
+  },
+  {
+   "surtitre": "1867 · 1880",
+   "texte": "En 1867, un policier l'arrête pour folie. Tollé : le chef le libère avec des excuses. À sa mort en 1880, des milliers de personnes suivent ses obsèques.",
+   "recherche_image": "Emperor Norton funeral 1880",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Tu aimes l'Histoire ? Abonne-toi pour une histoire vraie chaque jour."
+  }
+ ]
+}
