@@ -1,0 +1,89 @@
+{
+ "sujet": "Wojtek, l'ours soldat de l'armée polonaise (1942-1947)",
+ "titre": "Wojtek, l'ours devenu soldat de l'armée polonaise",
+ "description": "Un ourson acheté en Iran, enrôlé officiellement dans l'armée polonaise, et devenu la mascotte de Monte Cassino. Une histoire vraie qui finit dans un zoo écossais. #histoire #pourtoi #histoirevraie #guerre #apprendresurtiktok",
+ "recherche_secours": "Wojtek bear Polish soldier",
+ "hooks_candidats": [
+  "En 1944, l'armée polonaise comptait un ours parmi ses soldats.",
+  "Cet ours avait un grade, une solde et une place dans l'armée.",
+  "Pour monter à bord, un ours a dû s'engager dans l'armée.",
+  "Il pesait 200 kilos et portait l'uniforme polonais.",
+  "En 1944, un ours a participé à une bataille. Officiellement."
+ ],
+ "accroche": {
+  "surtitre": "WOJTEK · 1944",
+  "texte": "En 1944, l'armée polonaise comptait un ours parmi ses soldats.",
+  "recherche_image": "Wojtek bear Polish soldiers"
+ },
+ "recit": [
+  {
+   "surtitre": "IRAN · 1942",
+   "texte": "Avril 1942, en Iran. Des soldats polonais, libérés des camps soviétiques, achètent un ourson brun à un jeune garçon. Ils le nomment Wojtek.",
+   "recherche_image": "Polish Anders Army Iran 1942"
+  },
+  {
+   "surtitre": "UN DRÔLE DE RECRUE",
+   "texte": "Wojtek grandit vite. Il boit de la bière, dort dans les tentes et lutte avec les soldats. Il pèse bientôt plus de 200 kilos.",
+   "recherche_image": "Wojtek bear 22nd Artillery Supply Company"
+  },
+  {
+   "surtitre": "ÉGYPTE · 1944",
+   "texte": "1944 : la compagnie part pour l'Italie, mais les animaux sont interdits à bord. Wojtek est donc enrôlé officiellement, comme simple soldat.",
+   "recherche_image": "Polish II Corps Egypt 1944"
+  },
+  {
+   "surtitre": "MONTE CASSINO · 1944",
+   "texte": "À Monte Cassino, en mai 1944, il aurait porté des caisses d'obus aux artilleurs. La compagnie adopte pour emblème un ours avec un obus.",
+   "recherche_image": "Monte Cassino 1944 Polish soldiers"
+  },
+  {
+   "surtitre": "ÉCOSSE · 1947-1963",
+   "texte": "Démobilisé en Écosse en 1947, il finit au zoo d'Édimbourg. Il y meurt en 1963, à 21 ans. Une statue lui rend hommage depuis 2015.",
+   "recherche_image": "Wojtek statue Edinburgh"
+  }
+ ],
+ "cta": "Abonne-toi pour une histoire vraie chaque jour.",
+ "slides": [
+  {
+   "surtitre": "WOJTEK · 1944",
+   "texte": "En 1944, l'armée polonaise comptait un ours parmi ses soldats.",
+   "recherche_image": "Wojtek bear Polish soldiers",
+   "type": "hook"
+  },
+  {
+   "surtitre": "IRAN · 1942",
+   "texte": "Avril 1942, en Iran. Des soldats polonais, libérés des camps soviétiques, achètent un ourson brun à un jeune garçon. Ils le nomment Wojtek.",
+   "recherche_image": "Polish Anders Army Iran 1942",
+   "type": "recit"
+  },
+  {
+   "surtitre": "UN DRÔLE DE RECRUE",
+   "texte": "Wojtek grandit vite. Il boit de la bière, dort dans les tentes et lutte avec les soldats. Il pèse bientôt plus de 200 kilos.",
+   "recherche_image": "Wojtek bear 22nd Artillery Supply Company",
+   "type": "recit"
+  },
+  {
+   "surtitre": "ÉGYPTE · 1944",
+   "texte": "1944 : la compagnie part pour l'Italie, mais les animaux sont interdits à bord. Wojtek est donc enrôlé officiellement, comme simple soldat.",
+   "recherche_image": "Polish II Corps Egypt 1944",
+   "type": "recit"
+  },
+  {
+   "surtitre": "MONTE CASSINO · 1944",
+   "texte": "À Monte Cassino, en mai 1944, il aurait porté des caisses d'obus aux artilleurs. La compagnie adopte pour emblème un ours avec un obus.",
+   "recherche_image": "Monte Cassino 1944 Polish soldiers",
+   "type": "recit"
+  },
+  {
+   "surtitre": "ÉCOSSE · 1947-1963",
+   "texte": "Démobilisé en Écosse en 1947, il finit au zoo d'Édimbourg. Il y meurt en 1963, à 21 ans. Une statue lui rend hommage depuis 2015.",
+   "recherche_image": "Wojtek statue Edinburgh",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Abonne-toi pour une histoire vraie chaque jour."
+  }
+ ]
+}
