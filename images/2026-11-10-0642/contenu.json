@@ -1,0 +1,89 @@
+{
+ "sujet": "Le rhinocéros de Dürer (1515) : la gravure d'un animal que l'artiste n'a jamais vu",
+ "titre": "Dürer a dessiné un rhinocéros sans jamais en voir un",
+ "description": "En 1515, Albrecht Dürer grave un rhinocéros qu'il n'a jamais vu, et son image erronée a servi de modèle à l'Europe pendant plus de deux siècles. Une histoire vraie où l'erreur a survécu à l'animal. #histoire #pourtoi #renaissance #durer #culturegenerale",
+ "recherche_secours": "Dürer rhinoceros woodcut",
+ "hooks_candidats": [
+  "En 1515, Dürer a dessiné un animal qu'il n'avait jamais vu.",
+  "Cette gravure de 1515 a trompé l'Europe pendant deux siècles.",
+  "Le plus célèbre rhinocéros de l'histoire... était un dessin raté.",
+  "Il a dessiné un rhinocéros sans l'avoir jamais vu.",
+  "En 1515, un animal en armure débarque à Lisbonne."
+ ],
+ "accroche": {
+  "surtitre": "NUREMBERG · 1515",
+  "texte": "En 1515, Dürer a dessiné un animal qu'il n'avait jamais vu.",
+  "recherche_image": "Dürer Rhinoceros 1515"
+ },
+ "recit": [
+  {
+   "surtitre": "LISBONNE · MAI 1515",
+   "texte": "Un rhinocéros d'Inde débarque à Lisbonne : le premier vu en Europe depuis l'Antiquité. C'est un cadeau pour le roi du Portugal.",
+   "recherche_image": "Lisbon 16th century port"
+  },
+  {
+   "surtitre": "NUREMBERG · 1515",
+   "texte": "À Nuremberg, Dürer reçoit seulement un croquis et une lettre. Il n'a jamais vu la bête. Alors il imagine. Et il grave.",
+   "recherche_image": "Albrecht Dürer portrait"
+  },
+  {
+   "surtitre": "UNE BÊTE INVENTÉE",
+   "texte": "Résultat : un animal couvert de plaques rivetées, comme une armure, avec une petite corne sur le dos. Elle n'existe pas.",
+   "recherche_image": "Dürer Rhinoceros woodcut"
+  },
+  {
+   "surtitre": "MÉDITERRANÉE · 1516",
+   "texte": "Le roi veut l'offrir au pape. Début 1516, le navire fait naufrage. Le rhinocéros, enchaîné, se noie.",
+   "recherche_image": "16th century shipwreck painting"
+  },
+  {
+   "surtitre": "L'ERREUR SURVIT",
+   "texte": "Mais la gravure, elle, survit. Pendant plus de deux siècles, l'Europe copie ce rhinocéros imaginaire comme s'il était réel.",
+   "recherche_image": "Rhinoceros woodcut book illustration"
+  }
+ ],
+ "cta": "Tu aimes l'Histoire ? Abonne-toi.",
+ "slides": [
+  {
+   "surtitre": "NUREMBERG · 1515",
+   "texte": "En 1515, Dürer a dessiné un animal qu'il n'avait jamais vu.",
+   "recherche_image": "Dürer Rhinoceros 1515",
+   "type": "hook"
+  },
+  {
+   "surtitre": "LISBONNE · MAI 1515",
+   "texte": "Un rhinocéros d'Inde débarque à Lisbonne : le premier vu en Europe depuis l'Antiquité. C'est un cadeau pour le roi du Portugal.",
+   "recherche_image": "Lisbon 16th century port",
+   "type": "recit"
+  },
+  {
+   "surtitre": "NUREMBERG · 1515",
+   "texte": "À Nuremberg, Dürer reçoit seulement un croquis et une lettre. Il n'a jamais vu la bête. Alors il imagine. Et il grave.",
+   "recherche_image": "Albrecht Dürer portrait",
+   "type": "recit"
+  },
+  {
+   "surtitre": "UNE BÊTE INVENTÉE",
+   "texte": "Résultat : un animal couvert de plaques rivetées, comme une armure, avec une petite corne sur le dos. Elle n'existe pas.",
+   "recherche_image": "Dürer Rhinoceros woodcut",
+   "type": "recit"
+  },
+  {
+   "surtitre": "MÉDITERRANÉE · 1516",
+   "texte": "Le roi veut l'offrir au pape. Début 1516, le navire fait naufrage. Le rhinocéros, enchaîné, se noie.",
+   "recherche_image": "16th century shipwreck painting",
+   "type": "recit"
+  },
+  {
+   "surtitre": "L'ERREUR SURVIT",
+   "texte": "Mais la gravure, elle, survit. Pendant plus de deux siècles, l'Europe copie ce rhinocéros imaginaire comme s'il était réel.",
+   "recherche_image": "Rhinoceros woodcut book illustration",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Tu aimes l'Histoire ? Abonne-toi."
+  }
+ ]
+}
