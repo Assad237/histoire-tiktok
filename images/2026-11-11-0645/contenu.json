@@ -1,0 +1,78 @@
+{
+ "sujet": "Cher Ami, le pigeon voyageur qui a sauvé le « bataillon perdu » dans l'Argonne (octobre 1918)",
+ "titre": "Ce pigeon blessé a sauvé un bataillon en 1918",
+ "description": "Octobre 1918 : un pigeon voyageur, gravement blessé, porte le message qui sauve des centaines de soldats américains encerclés. Il recevra la Croix de guerre française. #histoire #pourtoi #premiereguerremondiale #animaux #histoirevraie",
+ "recherche_secours": "Cher Ami pigeon World War I",
+ "hooks_candidats": [
+  "Une balle dans la poitrine, une patte pendante : il vole encore 40 km.",
+  "En 1918, un pigeon a décoré la poitrine de la France.",
+  "Aveugle d'un œil, il a livré le message qui a sauvé 500 hommes.",
+  "Ce héros de guerre pesait moins de 400 grammes.",
+  "Le dernier espoir de 500 soldats tenait dans une cage à pigeon."
+ ],
+ "accroche": {
+  "surtitre": "ARGONNE · 1918",
+  "texte": "Une balle dans la poitrine, une patte pendante : il vole encore 40 km.",
+  "recherche_image": "Cher Ami pigeon"
+ },
+ "recit": [
+  {
+   "surtitre": "ARGONNE · OCTOBRE 1918",
+   "texte": "Forêt de l'Argonne. Plus de 500 soldats américains sont encerclés par les Allemands, coupés de tout, sans vivres.",
+   "recherche_image": "Lost Battalion Argonne 1918"
+  },
+  {
+   "surtitre": "LE PIRE DES SCÉNARIOS",
+   "texte": "Et leur propre artillerie leur tire dessus par erreur. La radio n'existe pas ici. Il ne reste qu'un seul pigeon : Cher Ami.",
+   "recherche_image": "carrier pigeon World War I"
+  },
+  {
+   "surtitre": "40 KILOMÈTRES",
+   "texte": "Il s'envole. Les Allemands tirent. Touché à la poitrine, un œil perdu, une patte pendue à un tendon, il vole 40 km en 25 minutes.",
+   "recherche_image": "Cher Ami pigeon Smithsonian"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "Le message arrive, le tir cesse. Cher Ami reçoit la Croix de guerre. À sa mort en 1919, on découvre que « il » était une femelle.",
+   "recherche_image": "Cher Ami Croix de Guerre pigeon"
+  }
+ ],
+ "cta": "Tu aimes l'Histoire ? Abonne-toi.",
+ "slides": [
+  {
+   "surtitre": "ARGONNE · 1918",
+   "texte": "Une balle dans la poitrine, une patte pendante : il vole encore 40 km.",
+   "recherche_image": "Cher Ami pigeon",
+   "type": "hook"
+  },
+  {
+   "surtitre": "ARGONNE · OCTOBRE 1918",
+   "texte": "Forêt de l'Argonne. Plus de 500 soldats américains sont encerclés par les Allemands, coupés de tout, sans vivres.",
+   "recherche_image": "Lost Battalion Argonne 1918",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LE PIRE DES SCÉNARIOS",
+   "texte": "Et leur propre artillerie leur tire dessus par erreur. La radio n'existe pas ici. Il ne reste qu'un seul pigeon : Cher Ami.",
+   "recherche_image": "carrier pigeon World War I",
+   "type": "recit"
+  },
+  {
+   "surtitre": "40 KILOMÈTRES",
+   "texte": "Il s'envole. Les Allemands tirent. Touché à la poitrine, un œil perdu, une patte pendue à un tendon, il vole 40 km en 25 minutes.",
+   "recherche_image": "Cher Ami pigeon Smithsonian",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "Le message arrive, le tir cesse. Cher Ami reçoit la Croix de guerre. À sa mort en 1919, on découvre que « il » était une femelle.",
+   "recherche_image": "Cher Ami Croix de Guerre pigeon",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Tu aimes l'Histoire ? Abonne-toi."
+  }
+ ]
+}
