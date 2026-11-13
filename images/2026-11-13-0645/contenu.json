@@ -1,0 +1,78 @@
+{
+ "sujet": "Le Grand Canular de la Lune (New York Sun, 1835)",
+ "titre": "Le canular de la Lune qui a trompé New York (1835)",
+ "description": "En 1835, un journal new-yorkais annonce que l'astronome John Herschel a découvert des créatures sur la Lune. C'était entièrement faux, mais des milliers de lecteurs y ont cru. #histoire #pourtoi #canular #apprendresurtiktok #histoiredefrance",
+ "recherche_secours": "Great Moon Hoax 1835",
+ "hooks_candidats": [
+  "En 1835, tout New York a cru à des hommes-chauves-souris sur la Lune.",
+  "En 1835, un journal a annoncé des licornes sur la Lune.",
+  "Ce journal a fait croire à une civilisation sur la Lune.",
+  "Un astronome innocent a été accusé d'avoir vu des hommes-chauves-souris.",
+  "En 1835, un faux astronome a rendu New York fou."
+ ],
+ "accroche": {
+  "surtitre": "NEW YORK · 1835",
+  "texte": "En 1835, tout New York a cru à des hommes-chauves-souris sur la Lune.",
+  "recherche_image": "Great Moon Hoax 1835 lithograph"
+ },
+ "recit": [
+  {
+   "surtitre": "UN JOURNAL À UN PENNY",
+   "texte": "Fin août 1835, le Sun, un journal new-yorkais à un penny, publie une série d'articles sur de prétendues découvertes de l'astronome John Herschel.",
+   "recherche_image": "New York Sun 1835 newspaper"
+  },
+  {
+   "surtitre": "UNE SOURCE INVENTÉE",
+   "texte": "Herschel existe vraiment : il observe alors le ciel depuis l'Afrique du Sud. Le journal cite son assistant, le Dr Andrew Grant. Lui n'a jamais existé.",
+   "recherche_image": "John Herschel portrait"
+  },
+  {
+   "surtitre": "LA LUNE SELON LE SUN",
+   "texte": "Au fil des six articles : des licornes, des castors qui marchent debout, et des créatures ailées à visage humain. Les lecteurs en redemandent.",
+   "recherche_image": "Great Moon Hoax bat-men lithograph"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "Tout était faux. L'imposture éclate quelques semaines plus tard, mais le tirage du Sun avait explosé. Le mensonge avait payé.",
+   "recherche_image": "Great Moon Hoax Herschel telescope illustration"
+  }
+ ],
+ "cta": "Abonne-toi pour une histoire vraie chaque jour.",
+ "slides": [
+  {
+   "surtitre": "NEW YORK · 1835",
+   "texte": "En 1835, tout New York a cru à des hommes-chauves-souris sur la Lune.",
+   "recherche_image": "Great Moon Hoax 1835 lithograph",
+   "type": "hook"
+  },
+  {
+   "surtitre": "UN JOURNAL À UN PENNY",
+   "texte": "Fin août 1835, le Sun, un journal new-yorkais à un penny, publie une série d'articles sur de prétendues découvertes de l'astronome John Herschel.",
+   "recherche_image": "New York Sun 1835 newspaper",
+   "type": "recit"
+  },
+  {
+   "surtitre": "UNE SOURCE INVENTÉE",
+   "texte": "Herschel existe vraiment : il observe alors le ciel depuis l'Afrique du Sud. Le journal cite son assistant, le Dr Andrew Grant. Lui n'a jamais existé.",
+   "recherche_image": "John Herschel portrait",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA LUNE SELON LE SUN",
+   "texte": "Au fil des six articles : des licornes, des castors qui marchent debout, et des créatures ailées à visage humain. Les lecteurs en redemandent.",
+   "recherche_image": "Great Moon Hoax bat-men lithograph",
+   "type": "recit"
+  },
+  {
+   "surtitre": "LA CHUTE",
+   "texte": "Tout était faux. L'imposture éclate quelques semaines plus tard, mais le tirage du Sun avait explosé. Le mensonge avait payé.",
+   "recherche_image": "Great Moon Hoax Herschel telescope illustration",
+   "type": "recit"
+  },
+  {
+   "type": "cta",
+   "surtitre": "ABONNE-TOI",
+   "texte": "Abonne-toi pour une histoire vraie chaque jour."
+  }
+ ]
+}
